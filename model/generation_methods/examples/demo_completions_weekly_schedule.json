@@ -1,0 +1,38 @@
+{
+    "topic": "Game Theory",
+    "day_1": {
+        "subtopic": "Basics of Game Theory",
+        "subtopic_description": "Introduction to Game Theory, including key definitions, concepts such as players, strategies, and payoffs.",
+        "progress_revision_topic": "Key Definitions in Game Theory"
+    },
+    "day_2": {
+        "subtopic": "Types of Games in Game Theory",
+        "subtopic_description": "Explore different types of games: cooperative vs. non-cooperative games, zero-sum games, and extensive form vs. normal form games.",
+        "progress_revision_topic": "Basics of Game Theory"
+    },
+    "day_3": {
+        "subtopic": "Nash Equilibrium Concepts",
+        "subtopic_description": "Understanding Nash Equilibrium, how to find equilibria in different types of games, and examples demonstrating equilibrium outcomes.",
+        "progress_revision_topic": "Types of Games in Game Theory"
+    },
+    "day_4": {
+        "subtopic": "Dominated Strategies and Their Applications",
+        "subtopic_description": "Analyze dominated and dominant strategies, examples of how players can benefit from these concepts in strategic decision-making.",
+        "progress_revision_topic": "Nash Equilibrium Concepts"
+    },
+    "day_5": {
+        "subtopic": "Mixed Strategy Nash Equilibrium",
+        "subtopic_description": "Introduction to mixed strategies, how to calculate them, and applications in real-world scenarios.",
+        "progress_revision_topic": "Dominated Strategies and Their Applications"
+    },
+    "day_6": {
+        "subtopic": "Advanced Applications of Game Theory",
+        "subtopic_description": "Explore advanced applications such as auctions, bargaining, and evolutionary game theory, reinforcing core concepts through case studies.",
+        "progress_revision_topic": "Mixed Strategy Nash Equilibrium"
+    },
+    "day_7": {
+        "subtopic": "Comprehensive Revision of Game Theory",
+        "subtopic_description": "Systematic review of all previous subtopics, emphasizing interconnections, key principles, and common misconceptions in Game Theory.",
+        "progress_revision_topic": "All Topics in Game Theory"
+    }
+}
