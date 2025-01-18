@@ -1,6 +1,9 @@
 <script lang="ts">
     import { onNavigate } from "$app/navigation";
     import { page } from "$app/state";
+    import { PUBLIC_BACKEND_URL } from "$env/static/public";
+    import { isHeroVisible } from "$lib/stores/heroVisibility";
+    import { sessionStore } from "$lib/stores/sessionStore";
     import { setTheme, theme } from "$lib/stores/themeStore";
     import { onMount } from "svelte";
     import { fade, fly, slide } from "svelte/transition";
@@ -45,12 +48,29 @@
     onMount(() => {
         display = true;
     })
+
+    const handleLogin = async () => {
+        const response = await fetch(`${PUBLIC_BACKEND_URL}/login`)
+        if (response.ok) {
+            const json = await response.json()
+            window.location = json.auth_url;
+        }
+    }
 </script>
 
 {#if display}
 <nav transition:fly={{ y: '-100%' }} class={`fixed top-0 left-0 h-[40px] w-full z-30`}>
     <!-- desktop navbar -->
     <div class={`mobile:hidden h-full mt-4 px-6 flex flex-row justify-end items-center gap-3`}>
+        {#if (!$isHeroVisible || page.url.pathname !== '/')}
+            <a
+                transition:slide={{ duration: 1000, axis: 'x' }}
+                class={`font-bespoke text-xl`} href="/"
+            >
+                Cogito
+            </a>
+        {/if}
+
         <!-- internal achors -->
         <div
             class={`apply-card h-full rounded-full flex items-center px-5 gap-4`}
@@ -64,6 +84,22 @@
                 >{item.display}</a>
             {/each}
         </div>
+
+        {#if ($sessionStore)}
+            <div class={`apply-card h-full rounded-full px-6 flex jusitfy-center items-center gap-2`}>
+                <svg class={`h-[20px] aspect-square stroke-current stroke-2 lucide lucide-user`}  viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" >
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+                    <circle cx="12" cy="7" r="4"/>
+                </svg>
+                <p class={`text-xl`}>
+                    {$sessionStore.profile.first_name}
+                </p>
+            </div>
+        {:else}
+            <button onclick={handleLogin} class={`apply-card h-full rounded-full px-6`}>
+                Login
+            </button>
+        {/if}
 
         <!-- theme toggle -->
         <button
@@ -92,7 +128,7 @@
         </button>
     </div>
 
-    <!-- mobile navbar -->
+    <!-- mobile hidden -->
     <div class={`desktop:hidden mt-4 px-4 h-full flex justify-end`}>
         {#if isMenuOpen}
             <!-- screen effect -->
@@ -130,7 +166,21 @@
 
                 <!-- title + theme toggle -->
                 <div class={`w-[90%] mt-3 flex items-center justify-center gap-4`}>
-                    <p class={`font-bespoke text-xl`}>Cogito</p>
+                    {#if (!$sessionStore)}
+                        <button onclick={handleLogin} class={`h-full rounded-full`}>
+                            Login
+                        </button>
+                    {:else}
+                        <div class={`h-full rounded-full  flex jusitfy-center items-center gap-2`}>
+                            <svg class={`h-[20px] aspect-square stroke-current stroke-2 lucide lucide-user`}  viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" >
+                                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                            <p class={`text-xl`}>
+                                {$sessionStore.profile.first_name}
+                            </p>
+                        </div>
+                    {/if}
 
                     <!-- theme toggle -->
                     <button
