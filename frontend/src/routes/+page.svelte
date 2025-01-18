@@ -1,22 +1,18 @@
-<svelte:head>
-    <title>Cogito</title>
-    <meta name="description" content="A revolutionary AI-Tutor">
-</svelte:head>
-
 <script lang="ts">
     import Hero from "$lib/components/home/Hero.svelte";
+    import WhyCogito from "$lib/components/whycogito/WhyCogito.svelte";
 </script>
 
 <main>
     <section>
-        <div class={`h-dvh w-dvw`}>
+        <div class="h-dvh w-dvw">
             <Hero />
         </div>
     </section>
 
     <section>
-        <div class={`h-dvh w-dvw`}>
-            somethnig and all bro
+        <div class="h-dvh w-dvw">
+            <WhyCogito />
         </div>
     </section>
 </main>
