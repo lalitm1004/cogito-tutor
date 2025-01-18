@@ -262,7 +262,7 @@ async def get_current_user(authorization: str = Header(...)) -> str:
         return payload['user_id']
     except jwt.ExpiredSignatureError:
         raise HTTPException(status_code=401, detail="Token has expired")
-    except jwt.JWTError:
+    except jwt.PyJWTError:
         raise HTTPException(status_code=401, detail="Invalid token")
 
 
