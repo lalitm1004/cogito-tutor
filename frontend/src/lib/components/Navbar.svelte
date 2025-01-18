@@ -1,6 +1,8 @@
 <script lang="ts">
     import { onNavigate } from "$app/navigation";
     import { page } from "$app/state";
+    import { PUBLIC_BACKEND_URL } from "$env/static/public";
+    import { isHeroVisible } from "$lib/stores/heroVisibility";
     import { setTheme, theme } from "$lib/stores/themeStore";
     import { onMount } from "svelte";
     import { fade, fly, slide } from "svelte/transition";
@@ -45,12 +47,24 @@
     onMount(() => {
         display = true;
     })
+
+    const handleLogin = async () => {
+        const response = await fetch(`${PUBLIC_BACKEND_URL}/login`)
+        if (response.ok) {
+            const json = await response.json()
+            window.location = json.auth_url;
+        }
+    }
 </script>
 
 {#if display}
 <nav transition:fly={{ y: '-100%' }} class={`fixed top-0 left-0 h-[40px] w-full z-30`}>
     <!-- desktop navbar -->
     <div class={`mobile:hidden h-full mt-4 px-6 flex flex-row justify-end items-center gap-3`}>
+        {#if (!$isHeroVisible || page.url.pathname !== '/')}
+            <p transition:slide={{ duration: 1000, axis: 'x' }} class={`font-bespoke text-xl`}>Cogito</p>
+        {/if}
+
         <!-- internal achors -->
         <div
             class={`apply-card h-full rounded-full flex items-center px-5 gap-4`}
@@ -64,6 +78,10 @@
                 >{item.display}</a>
             {/each}
         </div>
+
+        <button onclick={handleLogin}>
+            login
+        </button>
 
         <!-- theme toggle -->
         <button

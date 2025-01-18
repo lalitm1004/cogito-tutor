@@ -1,5 +1,7 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
+    import { isHeroVisible } from "$lib/stores/heroVisibility";
+    import { onMount } from "svelte";
 
     let error: boolean = $state(false);
     let topicValue: string = $state("");
@@ -26,9 +28,31 @@
 
         goto(`/tutor?${params.toString()}`)
     }
+
+    let heroDiv: HTMLDivElement;
+    let observer: IntersectionObserver;
+
+    onMount(() => {
+        observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                $isHeroVisible = entry.isIntersecting;
+            });
+        }, {
+            threshold: 0.2
+        });
+
+        if (heroDiv) {
+            observer.observe(heroDiv);
+        }
+
+        return () => {
+            $isHeroVisible = false;
+            observer.disconnect();
+        }
+    });
 </script>
 
-<div class={`h-full w-full md:grid md:grid-cols-2 md:place-items-center flex flex-col items-center`}>
+<div bind:this={heroDiv} class={`h-full w-full md:grid md:grid-cols-2 md:place-items-center flex flex-col items-center`}>
     <div class={`h-fit md:w-[590px] w-[350px] md:mt-0 mt-24 flex flex-col font-supreme`}>
         <h1 class={`font-bespoke tracking-tighter md:text-9xl text-8xl`}>
             Cogito
