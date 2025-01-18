@@ -3,6 +3,11 @@
     import WhyCogito from "$lib/components/home/WhyCogito.svelte";
 </script>
 
+<svelte:head>
+    <title>Cogito</title>
+    <meta name="description" content="Revolutionize learning with Cogito">
+</svelte:head>
+
 <main>
     <section>
         <div class="h-dvh w-dvw">
