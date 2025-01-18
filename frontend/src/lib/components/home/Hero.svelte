@@ -68,5 +68,5 @@
 
     <div class={`bg-red-100/10`}>
         <!---->
-    </div>  
+    </div>
 </div>

@@ -50,7 +50,7 @@
 {#if display}
 <nav transition:fly={{ y: '-100%' }} class={`fixed top-0 left-0 h-[40px] w-full z-30`}>
     <!-- desktop navbar -->
-    <div class={`mobile:hidden h-full mt-4 px-4 flex flex-row justify-end items-center gap-3`}>
+    <div class={`mobile:hidden h-full mt-4 px-6 flex flex-row justify-end items-center gap-3`}>
         <!-- internal achors -->
         <div
             class={`apply-card h-full rounded-full flex items-center px-5 gap-4`}

@@ -2,9 +2,11 @@
     import Navbar from '$lib/components/Navbar.svelte';
     import { setDevice } from '$lib/stores/deviceStore';
     import { setTheme, theme, TOKEN_NAME as theme_token } from '$lib/stores/themeStore';
-    import '$lib/styles/globals.css';    
     import { getCookie } from '$lib/utils/cookie';
     import { onMount } from 'svelte';
+
+    import '$lib/styles/globals.css';
+    import '$lib/styles/scrollbar.css';
 
     let { children } = $props();
 
