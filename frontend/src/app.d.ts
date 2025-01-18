@@ -19,6 +19,17 @@ declare global {
 	}
 	type Theme = 'light' | 'dark';
 	type Device = 'mobile' | 'desktop';
+	interface Profile {
+		id: string,
+		email: string,
+		first_name: string,
+		last_name: string,
+		avatar_url: string,
+	}
+	interface Session {
+		token: string,
+		profile: Profile
+	}
 }
 
 export {};

@@ -324,7 +324,7 @@ async def callback(code: str, state: str, db: Session = Depends(get_db)):
     await TokenManager.store_tokens(db, user_data['id'], tokens)
     jwt_token = TokenManager.create_access_token(user_data['id'])
 
-    redirect_url = f"{FRONTEND_URL}/auth?token={jwt_token}"
+    redirect_url = f"{FRONTEND_URL}?token={jwt_token}"
     return RedirectResponse(url=redirect_url)
 
 
