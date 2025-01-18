@@ -81,7 +81,7 @@ QuizResponseFormat: {
 	-   `desc`: the user provided description ideally including the syllabus, strong and weak topics
 -   **Example**:
 ```
-week_schedule = Completions.return_week_schedule("Machine Learning")
+week_schedule = Completions.return_week_schedule("Machine Learning", "(A brief user provided description)")
 ```
 - **Format**: 
 ```
