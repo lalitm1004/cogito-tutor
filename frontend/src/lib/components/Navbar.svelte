@@ -128,7 +128,7 @@
         </button>
     </div>
 
-    <!-- mobile navbar -->
+    <!-- mobile hidden -->
     <div class={`desktop:hidden mt-4 px-4 h-full flex justify-end`}>
         {#if isMenuOpen}
             <!-- screen effect -->
@@ -166,7 +166,11 @@
 
                 <!-- title + theme toggle -->
                 <div class={`w-[90%] mt-3 flex items-center justify-center gap-4`}>
-                    {#if ($sessionStore)}
+                    {#if (!$sessionStore)}
+                        <button onclick={handleLogin} class={`h-full rounded-full`}>
+                            Login
+                        </button>
+                    {:else}
                         <div class={`h-full rounded-full  flex jusitfy-center items-center gap-2`}>
                             <svg class={`h-[20px] aspect-square stroke-current stroke-2 lucide lucide-user`}  viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" >
                                 <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
@@ -176,12 +180,7 @@
                                 {$sessionStore.profile.first_name}
                             </p>
                         </div>
-                    {:else}
-                        <button onclick={handleLogin} class={`h-full rounded-full`}>
-                            Login
-                        </button>
                     {/if}
-                    <!-- <p class={`font-bespoke text-xl`}>Cogito</p> -->
 
                     <!-- theme toggle -->
                     <button
