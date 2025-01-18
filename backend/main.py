@@ -26,7 +26,7 @@ load_dotenv()
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, replace with your frontend domains
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -38,7 +38,7 @@ GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
 REDIRECT_URI = "http://localhost:8000/callback"
 JWT_SECRET = os.getenv("JWT_SECRET")
 JWT_ALGORITHM = "HS256"
-FRONTEND_URL = "http://localhost:3000"  # Change this to your actual frontend URL
+FRONTEND_URL = "http://localhost:3000"
 
 # Database configuration
 SQLALCHEMY_DATABASE_URL = os.getenv("DB_URL")
@@ -292,13 +292,16 @@ async def callback(code: str, state: str, db: Session = Depends(get_db)):
     flow.fetch_token(code=code)
 
     credentials = flow.credentials
+
+    # Add clock_skew_in_seconds parameter for token verification
     id_info = id_token.verify_oauth2_token(
         credentials.id_token,
         requests.Request(),
-        GOOGLE_CLIENT_ID
+        GOOGLE_CLIENT_ID,
+        clock_skew_in_seconds=10  # Allow 10 seconds of clock skew
     )
 
-    # Extract user data from Google ID token
+    # Rest of your callback function remains the same
     user_data = {
         'id': id_info['sub'],
         'email': id_info['email'],
@@ -307,10 +310,8 @@ async def callback(code: str, state: str, db: Session = Depends(get_db)):
         'avatar_url': id_info.get('picture', '')
     }
 
-    # Create or update user in database
     await UserManager.create_or_update_user(db, user_data)
 
-    # Store tokens
     tokens = {
         'access_token': credentials.token,
         'refresh_token': credentials.refresh_token,
