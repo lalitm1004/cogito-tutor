@@ -3,8 +3,9 @@
     import { page } from "$app/state";
     import { PUBLIC_BACKEND_URL } from "$env/static/public";
     import { isHeroVisible } from "$lib/stores/heroVisibility";
-    import { sessionStore } from "$lib/stores/sessionStore";
+    import { sessionStore, setSession } from "$lib/stores/sessionStore";
     import { setTheme, theme } from "$lib/stores/themeStore";
+    import { getCookie } from "$lib/utils/cookie";
     import { onMount } from "svelte";
     import { fade, fly, slide } from "svelte/transition";
 
@@ -46,6 +47,18 @@
 
     let display: boolean = $state(false);
     onMount(() => {
+        setTimeout(() => {
+            const token = getCookie(document.cookie, 'cogito-auth');
+            if (token) {
+                const profile: Profile = JSON.parse(decodeURIComponent(getCookie(document.cookie, 'cogito-profile')!))
+
+                setSession({
+                    token,
+                    profile
+                });
+            }
+        }, 0);
+
         display = true;
     })
 

@@ -7,6 +7,8 @@
 
     import '$lib/styles/globals.css';
     import '$lib/styles/scrollbar.css';
+    import { loadingStore } from '$lib/stores/loadingStore';
+    import Loading from '$lib/components/Loading.svelte';
 
     let { children } = $props();
 
@@ -31,6 +33,10 @@
         return () => window.removeEventListener('resize', handleResize);
     })
 </script>
+
+{#if $loadingStore}
+    <Loading />
+{/if}
 
 <Navbar />
 {@render children()}

@@ -24,7 +24,7 @@
             topicValue
         });
 
-        goto(`/tutor?${params.toString()}`)
+        goto(`/tutor/new?${params.toString()}`)
     }
 
     let heroParagraph: HTMLParagraphElement;

@@ -5,24 +5,6 @@
 
 <script lang="ts">
     import Hero from "$lib/components/home/Hero.svelte";
-    import { device } from "$lib/stores/deviceStore";
-    import { sessionStore } from "$lib/stores/sessionStore";
-    import { getCookie } from "$lib/utils/cookie";
-    import { onMount } from "svelte";
-
-    onMount(() => {
-        setTimeout(() => {
-            const token = getCookie(document.cookie, 'cogito-auth');
-            if (token) {
-                const profile: Profile = JSON.parse(decodeURIComponent(getCookie(document.cookie, 'cogito-profile')!))
-        
-                sessionStore.set({
-                    token,
-                    profile
-                });
-            }
-        }, 0)
-    })
 </script>
 
 <main>
