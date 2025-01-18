@@ -1,1513 +1,1513 @@
 {
-    "topic": "Game Theory",
+    "topic": "Linear Algebra",
     "day_1": {
-        "subtopic": "Basics of Game Theory",
-        "subtopic_description": "Introduction to Game Theory, including key definitions, concepts such as players, strategies, and payoffs.",
+        "subtopic": "Introduction to Linear Algebra Terminology",
+        "subtopic_description": "Familiarize with key terms such as vectors, matrices, and systems of equations.",
         "flashcard_deck": {
-            "topic": "Basics of Game Theory",
+            "topic": "Introduction to Linear Algebra Terminology",
             "flashcard_pairs": [
                 {
-                    "subtopic": "Fundamentals",
-                    "question": "What is game theory primarily concerned with?",
-                    "answer": "Strategic interaction"
+                    "subtopic": "Vectors",
+                    "question": "What is a collection of numbers arranged in a column?",
+                    "answer": "Column vector"
                 },
                 {
-                    "subtopic": "Types of Games",
-                    "question": "What are the two main types of games in game theory?",
-                    "answer": "Cooperative and Non-cooperative"
+                    "subtopic": "Matrices",
+                    "question": "What is a rectangular array of numbers called?",
+                    "answer": "Matrix"
                 },
                 {
-                    "subtopic": "Game Representation",
-                    "question": "How is a game typically represented in game theory?",
-                    "answer": "Payoff matrix"
+                    "subtopic": "Determinants",
+                    "question": "What value quantifies how a matrix transforms space?",
+                    "answer": "Determinant"
                 },
                 {
-                    "subtopic": "Players",
-                    "question": "What is a participant in a game called?",
-                    "answer": "Player"
+                    "subtopic": "Linear Combination",
+                    "question": "What is a sum of scalar multiples of vectors called?",
+                    "answer": "Linear combination"
                 },
                 {
-                    "subtopic": "Strategies",
-                    "question": "What do players choose to maximize their outcomes?",
-                    "answer": "Strategies"
+                    "subtopic": "Basis",
+                    "question": "What term describes a set of linearly independent vectors spanning a vector space?",
+                    "answer": "Basis"
                 },
                 {
-                    "subtopic": "Payoffs",
-                    "question": "What do players receive as a result of their chosen strategies?",
-                    "answer": "Payoffs"
+                    "subtopic": "Dimension",
+                    "question": "What is the maximum number of linearly independent vectors in a vector space?",
+                    "answer": "Dimension"
                 },
                 {
-                    "subtopic": "Dominated Strategy",
-                    "question": "What is a strategy that is worse than another strategy, regardless of what opponents do?",
-                    "answer": "Dominated strategy"
+                    "subtopic": "Eigenvalues",
+                    "question": "What are scalars associated with a linear transformation?",
+                    "answer": "Eigenvalues"
                 },
                 {
-                    "subtopic": "Nash Equilibrium",
-                    "question": "What is a situation where no player can benefit by changing their strategy while others keep theirs unchanged?",
-                    "answer": "Nash equilibrium"
+                    "subtopic": "Eigenvectors",
+                    "question": "What vectors remain parallel after a linear transformation?",
+                    "answer": "Eigenvectors"
                 },
                 {
-                    "subtopic": "Zero-Sum Games",
-                    "question": "What kind of game is one where one player's gain is equivalent to another's loss?",
-                    "answer": "Zero-sum game"
+                    "subtopic": "Linear Transformation",
+                    "question": "What is a function mapping vectors to vectors preserving addition and scalar multiplication?",
+                    "answer": "Linear transformation"
                 },
                 {
-                    "subtopic": "Mixed Strategy",
-                    "question": "What is a strategy involving randomization amongst choices called?",
-                    "answer": "Mixed strategy"
+                    "subtopic": "Span",
+                    "question": "What is the set of all linear combinations of a given set of vectors called?",
+                    "answer": "Span"
                 },
                 {
-                    "subtopic": "Pareto Efficiency",
-                    "question": "What is the term for a state where no player can be made better off without making another player worse off?",
-                    "answer": "Pareto efficiency"
+                    "subtopic": "Null Space",
+                    "question": "What is the set of all vectors that lead to the zero vector when multiplied by a matrix?",
+                    "answer": "Null space"
                 },
                 {
-                    "subtopic": "Prisoner's Dilemma",
-                    "question": "What classic game demonstrates cooperation vs. self-interest?",
-                    "answer": "Prisoner's dilemma"
+                    "subtopic": "Row Space",
+                    "question": "What is the span of the rows of a matrix known as?",
+                    "answer": "Row space"
                 },
                 {
-                    "subtopic": "Repeated Games",
-                    "question": "What are games called where the same scenario is played multiple times?",
-                    "answer": "Repeated games"
+                    "subtopic": "Column Space",
+                    "question": "What is the span of the columns of a matrix called?",
+                    "answer": "Column space"
                 },
                 {
-                    "subtopic": "Extensive Form",
-                    "question": "What representation uses a tree structure to depict a game?",
-                    "answer": "Extensive form"
+                    "subtopic": "Orthogonal Vectors",
+                    "question": "What do we call vectors that are perpendicular to each other?",
+                    "answer": "Orthogonal vectors"
                 },
                 {
-                    "subtopic": "Simultaneous Games",
-                    "question": "What type of games do players make decisions without knowledge of others' choices?",
-                    "answer": "Simultaneous games"
+                    "subtopic": "Inner Product",
+                    "question": "What is the generalization of the dot product in higher dimensions?",
+                    "answer": "Inner product"
                 },
                 {
-                    "subtopic": "Information Sets",
-                    "question": "What is a collection of decision points in a game that a player cannot distinguish?",
-                    "answer": "Information sets"
+                    "subtopic": "Orthogonal Basis",
+                    "question": "What is a basis where all vectors are orthogonal to each other called?",
+                    "answer": "Orthogonal basis"
                 },
                 {
-                    "subtopic": "Coalitions",
-                    "question": "What are groups of players that coordinate their strategies called?",
-                    "answer": "Coalitions"
+                    "subtopic": "Rank",
+                    "question": "What term describes the dimension of the column space of a matrix?",
+                    "answer": "Rank"
                 },
                 {
-                    "subtopic": "Subgame Perfect Equilibrium",
-                    "question": "What is the refinement of Nash equilibrium for dynamic games?",
-                    "answer": "Subgame perfect equilibrium"
+                    "subtopic": "System of Linear Equations",
+                    "question": "What is a collection of one or more linear equations involving the same variables?",
+                    "answer": "System of equations"
                 },
                 {
-                    "subtopic": "Backward Induction",
-                    "question": "What method is used to solve extensive games by analyzing from the end?",
-                    "answer": "Backward induction"
+                    "subtopic": "Coefficient Matrix",
+                    "question": "What matrix contains the coefficients of the variables in a system of equations?",
+                    "answer": "Coefficient matrix"
                 },
                 {
-                    "subtopic": "Fair Division",
-                    "question": "What is the concept of fairly dividing resources among players called?",
-                    "answer": "Fair division"
+                    "subtopic": "Gauss-Jordan Elimination",
+                    "question": "What method is used to solve systems of linear equations?",
+                    "answer": "Gauss-Jordan elimination"
                 }
             ]
         },
-        "progress_revision_topic": "Key Definitions in Game Theory",
+        "progress_revision_topic": "Overview of Linear Algebra Concepts",
         "revision_quiz": {
-            "topic": "Key Definitions in Game Theory",
+            "topic": "Overview of Linear Algebra Concepts",
             "difficulty": "Easy",
             "quiz_questions": [
                 {
-                    "subtopic": "Basic Terms",
-                    "question": "What is a 'Nash Equilibrium'?",
-                    "option_A": "A situation where players choose their best strategy, given the strategies of others.",
-                    "option_B": "A strategy that always leads to the highest pay-off.",
-                    "option_C": "A cooperation between players to improve overall pay-off.",
-                    "option_D": "A scenario where players can change their strategies freely.",
-                    "answer": "A",
-                    "explanation": "A 'Nash Equilibrium' is defined as a situation in a game where no player can unilaterally benefit by changing their strategy if the strategies of the others remain unchanged. Option B describes a dominant strategy but not all equilibria involve dominant strategies. Option C describes cooperation rather than Nash Equilibrium. Option D is incorrect as players cannot freely change strategies in an equilibrium."
+                    "subtopic": "Vectors",
+                    "question": "What is a vector?",
+                    "option_A": "A quantity that has only magnitude.",
+                    "option_B": "A quantity that has both magnitude and direction.",
+                    "option_C": "A point in space.",
+                    "option_D": "A line segment with no length.",
+                    "answer": "B",
+                    "explanation": "A vector is defined as a quantity that has both magnitude and direction, distinguishing it from a scalar that has only magnitude (Option A). A point in space is not a vector (Option C), and a line segment with no length is contradictory (Option D)."
                 },
                 {
-                    "subtopic": "Types of Games",
-                    "question": "What is a 'zero-sum game'?",
-                    "option_A": "A game where one player's gain is equivalent to another's loss.",
-                    "option_B": "A game where all players can simultaneously gain.",
-                    "option_C": "A game with no consequences for players.",
-                    "option_D": "A game involving multiple strategies with collaborative outcomes.",
+                    "subtopic": "Matrices",
+                    "question": "What is a matrix?",
+                    "option_A": "A collection of scalar values arranged in rows and columns.",
+                    "option_B": "A single number.",
+                    "option_C": "A set of vectors with no specific arrangement.",
+                    "option_D": "A geometric shape in a coordinate plane.",
                     "answer": "A",
-                    "explanation": "A 'zero-sum game' is defined as a situation in which one player's gain (or loss) is exactly balanced by the losses (or gains) of other players. Option B refers to cooperative games where players can gain. Option C does not accurately reflect the nature of strategic games. Option D misrepresents competitive aspects of a zero-sum game."
+                    "explanation": "A matrix is defined as a collection of scalar values arranged in rows and columns, while a single number is a scalar (Option B), and a set of vectors without arrangement cannot form a matrix (Option C). A geometric shape is unrelated to matrices (Option D)."
                 },
                 {
-                    "subtopic": "Strategies",
-                    "question": "What is a 'dominant strategy'?",
-                    "option_A": "A strategy that yields the best outcome regardless of what other players do.",
-                    "option_B": "The strategy that leads to the highest total score in the game.",
-                    "option_C": "A strategy that is only effective against weak opponents.",
-                    "option_D": "The same as a Nash Equilibrium strategy.",
+                    "subtopic": "Linear Equations",
+                    "question": "Which of the following represents a linear equation?",
+                    "option_A": "y = 3x + 2",
+                    "option_B": "y = x^2 + 3",
+                    "option_C": "y = sin(x)",
+                    "option_D": "y = e^x",
                     "answer": "A",
-                    "explanation": "A 'dominant strategy' is one that provides a better outcome for a player, no matter how the other players decide to act. Option B confuses dominant strategies with total payoffs, while option C misunderstands dominance. Option D conflates dominant strategies with Nash Equilibrium."
+                    "explanation": "A linear equation is expressed in the form y = mx + b, where m and b are constants, making Option A correct. Options B (quadratic), C (trigonometric), and D (exponential) do not represent linear equations."
                 },
                 {
-                    "subtopic": "Game Components",
-                    "question": "What are 'payoff matrices'?",
-                    "option_A": "Tools that outline the potential outcomes of various strategies in a game.",
-                    "option_B": "Figures representing the total amount of money in a game.",
-                    "option_C": "Matrices showing the scores of players across multiple games.",
-                    "option_D": "A visual representation of a player's feelings in a game.",
+                    "subtopic": "Determinants",
+                    "question": "What does the determinant of a 2x2 matrix represent?",
+                    "option_A": "A scalar value that indicates the area of the parallelogram formed by its row vectors.",
+                    "option_B": "The eigenvalues of the matrix.",
+                    "option_C": "The matrix's transpose.",
+                    "option_D": "The sum of its diagonal elements.",
                     "answer": "A",
-                    "explanation": "Payoff matrices provide a structured way to view the possible outcomes of a game based on different strategy combinations by players. Option B misinterprets the role of payoff matrices, while option C refers to something unrelated. Option D is irrelevant to game theory outcomes."
+                    "explanation": "The determinant of a 2x2 matrix indeed represents the area of the parallelogram formed by its row vectors. This is not what eigenvalues (Option B) or the transpose (Option C) represent, and the sum of the diagonal elements describes the trace, not the determinant (Option D)."
                 },
                 {
-                    "subtopic": "Player Types",
-                    "question": "What is a 'cooperative game'?",
-                    "option_A": "A game where players can make binding agreements to improve outcomes.",
-                    "option_B": "A game that involves no form of communication.",
-                    "option_C": "A game where players act independently with no strategy involved.",
-                    "option_D": "A competitive game with only one winner.",
+                    "subtopic": "Basis",
+                    "question": "What is a basis in linear algebra?",
+                    "option_A": "A set of vectors that spans the space and is linearly independent.",
+                    "option_B": "Any set of vectors in a vector space.",
+                    "option_C": "The largest vector in a vector space.",
+                    "option_D": "A fixed point in the vector space.",
                     "answer": "A",
-                    "explanation": "A 'cooperative game' is defined by the ability of players to form binding agreements that allow them to coordinate strategies for mutual benefit. Option B denotes non-cooperative games, whereas option C incorrectly describes the nature of strategy in games. Option D misrepresents the competitive aspect of the game."
+                    "explanation": "A basis is defined as a set of vectors that span a space and are linearly independent, while just any set of vectors does not meet the criteria (Option B). A fixed point (Option D) or largest vector (Option C) are not definitions applicable to a basis."
                 },
                 {
-                    "subtopic": "Game Outcomes",
-                    "question": "What is a 'utility' in game theory?",
-                    "option_A": "A measure of preferences over a set of goods or outcomes.",
-                    "option_B": "The amount of money a player can win in a game.",
-                    "option_C": "A strategy that ensures victory for a player.",
-                    "option_D": "A type of game that favors one player permanently.",
+                    "subtopic": "Linear Transformation",
+                    "question": "What is a linear transformation?",
+                    "option_A": "A function that preserves vector addition and scalar multiplication.",
+                    "option_B": "A function that curves graphs of vectors.",
+                    "option_C": "Only a transformation that increases the size of vectors.",
+                    "option_D": "A process that changes the direction of a vector, but not its length.",
                     "answer": "A",
-                    "explanation": "In game theory, 'utility' refers to a measure of preferences. This concept allows players to rank different outcomes based on their satisfaction. Option B is limited to monetary value, while option C and option D misrepresent the role of utility."
+                    "explanation": "A linear transformation preserves vector addition and scalar multiplication, making Option A correct. Option B describes a non-linear behavior, Option C is incorrect since transformations can decrease or increase sizes, and Option D fails because linear transformations can maintain or change lengths appropriately."
                 },
                 {
-                    "subtopic": "Game Scenarios",
-                    "question": "In game theory, what does 'backward induction' refer to?",
-                    "option_A": "A method where players reason backwards from the end of the game to determine strategies.",
-                    "option_B": "A strategy applied only in cooperative games.",
-                    "option_C": "The inability of players to predict outcomes.",
-                    "option_D": "A concept used exclusively in simultaneous games.",
+                    "subtopic": "Eigenvalues",
+                    "question": "What is an eigenvalue?",
+                    "option_A": "A scalar that indicates how much the corresponding eigenvector is stretched or compressed.",
+                    "option_B": "A vector that changes during matrix multiplication.",
+                    "option_C": "The sum of all elements in a vector.",
+                    "option_D": "A fixed point in a matrix operation.",
                     "answer": "A",
-                    "explanation": "'Backward induction' is a method in which players analyze the game starting from the last possible move and working in reverse to determine optimal strategies. Option B misrepresents its applicability, while option C incorrectly describes player capabilities. Option D is misleading as this concept can apply in sequential games."
+                    "explanation": "An eigenvalue corresponds to how much the eigenvector is scaled by the transformation represented by the matrix when multiplied, while eigenvectors are not fixed (Option B), and the sum of vector elements does not define eigenvalues (Option C) nor do they represent fixed points in matrix operations (Option D)."
                 },
                 {
-                    "subtopic": "Information Sets",
-                    "question": "What is 'perfect information' in a game?",
-                    "option_A": "When all players are fully informed about the game's structure and past actions of all players.",
-                    "option_B": "A situation where players take turns without revealing strategies.",
-                    "option_C": "A game where all choices are made simultaneously.",
-                    "option_D": "An ideal setting with no randomness involved.",
+                    "subtopic": "Orthogonality",
+                    "question": "What does it mean for two vectors to be orthogonal?",
+                    "option_A": "Their dot product is zero.",
+                    "option_B": "They point in the same direction.",
+                    "option_C": "They have the same magnitude.",
+                    "option_D": "They are parallel to each other.",
                     "answer": "A",
-                    "explanation": "'Perfect information' indicates that all players know all actions previously taken by other players, as in chess. Option B describes turn-taking but does not reflect perfect information. Option C describes simultaneous games, while option D does not encompass the informational aspect."
+                    "explanation": "Two vectors are said to be orthogonal when their dot product is zero, in contrast to being parallel (Option D) or pointing in the same direction (Option B), and they can have different magnitudes as well (Option C)."
                 },
                 {
-                    "subtopic": "Game Duration",
-                    "question": "What is a 'repeated game'?",
-                    "option_A": "A game that is played multiple times by the same players.",
-                    "option_B": "A one-time game with no future implications.",
-                    "option_C": "A game that lasts only for a limited time frame.",
-                    "option_D": "A game where players can exchange roles rapidly.",
+                    "subtopic": "Scalars",
+                    "question": "What is a scalar in the context of linear algebra?",
+                    "option_A": "A single real number used to scale a vector.",
+                    "option_B": "A multi-dimensional array of numbers.",
+                    "option_C": "A linear combination of vectors.",
+                    "option_D": "An equation involving multiple variables.",
                     "answer": "A",
-                    "explanation": "A 'repeated game' occurs when the same game is played several times by the same players, allowing for strategy adaptation. Option B directly contradicts the definition, while options C and D are misleading regarding the game's continuity."
+                    "explanation": "In linear algebra, a scalar is defined as a single real number that multiplies vectors to scale them. A multi-dimensional array describes a matrix (Option B), a linear combination involves multiple scalars and vectors (Option C), and an equation with variables is not relevant to scalars (Option D)."
                 },
                 {
-                    "subtopic": "Outcomes Analysis",
-                    "question": "What is the 'Pareto optimality'?",
-                    "option_A": "An outcome where no player's situation can improve without worsening another's.",
-                    "option_B": "A strategy that guarantees win-win situations for all players.",
-                    "option_C": "A condition where all players receive equal pay-offs.",
-                    "option_D": "An outcome achieved only in competitive games.",
+                    "subtopic": "Dimension",
+                    "question": "What does 'dimension' refer to in linear algebra?",
+                    "option_A": "The number of vectors in a basis for a vector space.",
+                    "option_B": "The geometric shape of a graph.",
+                    "option_C": "The number of elements in a vector.",
+                    "option_D": "The total amount of scalar values in a matrix.",
                     "answer": "A",
-                    "explanation": "'Pareto optimality' describes a situation where no individual's welfare can be improved without making at least one individual worse off. Option B, although it sounds similar, misrepresents the concept. Option C and D both divert from the main definition."
+                    "explanation": "Dimension refers to the number of vectors in a basis of a vector space, distinguishing it from the geometric shape (Option B), the number of elements in a vector (Option C), or the scalar values in a matrix (Option D)."
                 }
             ]
         }
     },
     "day_2": {
-        "subtopic": "Types of Games in Game Theory",
-        "subtopic_description": "Explore different types of games: cooperative vs. non-cooperative games, zero-sum games, and extensive form vs. normal form games.",
+        "subtopic": "Understanding Vector Spaces",
+        "subtopic_description": "Explore the definition, properties, and examples of vector spaces, focusing on basis and dimension.",
         "flashcard_deck": {
-            "topic": "Types of Games in Game Theory",
+            "topic": "Understanding Vector Spaces",
             "flashcard_pairs": [
                 {
-                    "subtopic": "Cooperative Games",
-                    "question": "What type of games allows players to form binding commitments?",
-                    "answer": "Cooperative"
+                    "subtopic": "Definition",
+                    "question": "What is a vector space?",
+                    "answer": "A collection of vectors closed under addition and scalar multiplication."
                 },
                 {
-                    "subtopic": "Non-Cooperative Games",
-                    "question": "What type of games does not allow binding commitments among players?",
-                    "answer": "Non-Cooperative"
+                    "subtopic": "Basis",
+                    "question": "What defines a basis in a vector space?",
+                    "answer": "A set of linearly independent vectors that span the space."
                 },
                 {
-                    "subtopic": "Zero-Sum Games",
-                    "question": "What type of game has a total payoff of zero for all players?",
-                    "answer": "Zero-Sum"
+                    "subtopic": "Dimension",
+                    "question": "What is the dimension of a vector space?",
+                    "answer": "The number of vectors in a basis for the space."
                 },
                 {
-                    "subtopic": "Symmetric Games",
-                    "question": "What type of games have identical strategies and payoffs for all players?",
-                    "answer": "Symmetric"
+                    "subtopic": "Linear Combination",
+                    "question": "What is a linear combination of vectors?",
+                    "answer": "A sum of scalar multiples of vectors."
                 },
                 {
-                    "subtopic": "Asymmetric Games",
-                    "question": "What type of games have different strategies and payoffs for players?",
-                    "answer": "Asymmetric"
+                    "subtopic": "Subspace",
+                    "question": "What is a subspace?",
+                    "answer": "A subset of a vector space that is also a vector space."
                 },
                 {
-                    "subtopic": "Sequential Games",
-                    "question": "What type of games is played in a sequence where players make moves one after another?",
-                    "answer": "Sequential"
+                    "subtopic": "Null Space",
+                    "question": "What is the null space of a matrix?",
+                    "answer": "The set of vectors that are mapped to zero by the matrix."
                 },
                 {
-                    "subtopic": "Simultaneous Games",
-                    "question": "What type of games are played where all players make decisions at the same time?",
-                    "answer": "Simultaneous"
+                    "subtopic": "Column Space",
+                    "question": "What is the column space of a matrix?",
+                    "answer": "The span of its column vectors."
                 },
                 {
-                    "subtopic": "One-Shot Games",
-                    "question": "What type of games occur only once for each player?",
-                    "answer": "One-Shot"
+                    "subtopic": "Orthogonality",
+                    "question": "What does orthogonality mean in vector spaces?",
+                    "answer": "Vectors are at right angles to each other."
                 },
                 {
-                    "subtopic": "Repeated Games",
-                    "question": "What type of games is played multiple times, allowing strategies to evolve?",
-                    "answer": "Repeated"
+                    "subtopic": "Inner Product",
+                    "question": "What is an inner product?",
+                    "answer": "A mathematical operation that generalizes the dot product."
                 },
                 {
-                    "subtopic": "Dynamic Games",
-                    "question": "What type of games involve changing strategies over time?",
-                    "answer": "Dynamic"
+                    "subtopic": "Linear Dependence",
+                    "question": "What is linear dependence?",
+                    "answer": "When a vector can be expressed as a combination of others."
                 },
                 {
-                    "subtopic": "Static Games",
-                    "question": "What type of games have fixed strategies with no changes over time?",
-                    "answer": "Static"
+                    "subtopic": "Span",
+                    "question": "What does it mean to span a vector space?",
+                    "answer": "To cover the entire space using linear combinations of a set."
                 },
                 {
-                    "subtopic": "Perfect Information Games",
-                    "question": "What type of games have all players aware of all previous moves?",
-                    "answer": "Perfect Information"
+                    "subtopic": "Eigenvectors",
+                    "question": "What are eigenvectors?",
+                    "answer": "Vectors that change only by a scalar factor during transformation."
                 },
                 {
-                    "subtopic": "Imperfect Information Games",
-                    "question": "What type of games have players unaware of previous actions taken?",
-                    "answer": "Imperfect Information"
+                    "subtopic": "Transformation",
+                    "question": "What is a linear transformation?",
+                    "answer": "A mapping that preserves vector addition and scalar multiplication."
                 },
                 {
-                    "subtopic": "Nash Equilibrium",
-                    "question": "What is the concept where no player can benefit by changing their strategy while others remain constant?",
-                    "answer": "Nash Equilibrium"
+                    "subtopic": "Isomorphism",
+                    "question": "What is a vector space isomorphism?",
+                    "answer": "A bijective linear mapping between vector spaces."
                 },
                 {
-                    "subtopic": "Dominant Strategy",
-                    "question": "What is a strategy that is optimal regardless of what opponents do?",
-                    "answer": "Dominant Strategy"
+                    "subtopic": "Finite Dimensional",
+                    "question": "What is a finite-dimensional vector space?",
+                    "answer": "A vector space with a finite basis."
                 },
                 {
-                    "subtopic": "Stag Hunt",
-                    "question": "What game type illustrates a conflict between safety and social cooperation?",
-                    "answer": "Stag Hunt"
+                    "subtopic": "Rank",
+                    "question": "What is the rank of a matrix?",
+                    "answer": "The dimension of its column space."
                 },
                 {
-                    "subtopic": "Prisoner's Dilemma",
-                    "question": "What classic game demonstrates the conflict between cooperation and self-interest?",
-                    "answer": "Prisoner's Dilemma"
+                    "subtopic": "Linear Functionals",
+                    "question": "What is a linear functional?",
+                    "answer": "A linear map from a vector space to its field of scalars."
                 },
                 {
-                    "subtopic": "Battle of the Sexes",
-                    "question": "What game type illustrates coordination issues with players having different preferences?",
-                    "answer": "Battle of the Sexes"
+                    "subtopic": "Direct Sum",
+                    "question": "What is a direct sum of vector spaces?",
+                    "answer": "A combination of subspaces where each element can be uniquely represented."
                 },
                 {
-                    "subtopic": "Coordination Games",
-                    "question": "What type of games emphasizes players coordinating their strategies for optimal outcomes?",
-                    "answer": "Coordination"
+                    "subtopic": "Field",
+                    "question": "What is a field in the context of vector spaces?",
+                    "answer": "A set equipped with addition, subtraction, multiplication, and division."
                 },
                 {
-                    "subtopic": "Auction Games",
-                    "question": "What type of games focus on bidding strategies among participants?",
-                    "answer": "Auction"
+                    "subtopic": "Homomorphism",
+                    "question": "What is a homomorphism in vector spaces?",
+                    "answer": "A structure-preserving map between two vector spaces."
                 }
             ]
         },
-        "progress_revision_topic": "Basics of Game Theory",
+        "progress_revision_topic": "Key Terms in Linear Algebra",
         "revision_quiz": {
-            "topic": "Basics of Game Theory",
+            "topic": "Key Terms in Linear Algebra",
             "difficulty": "Easy",
             "quiz_questions": [
                 {
-                    "subtopic": "Definition of Game Theory",
-                    "question": "What is a basic definition of game theory?",
-                    "option_A": "The study of economic systems only",
-                    "option_B": "The study of strategic interactions among rational decision-makers",
-                    "option_C": "The analysis of human emotions",
-                    "option_D": "The exploration of social networks",
+                    "subtopic": "Vectors",
+                    "question": "What is a vector in linear algebra?",
+                    "option_A": "A geometric shape",
+                    "option_B": "A quantity with both magnitude and direction",
+                    "option_C": "A scalar quantity",
+                    "option_D": "An equation representing a line",
                     "answer": "B",
-                    "explanation": "Game theory is fundamentally about the study of strategic interactions, where the decisions of one player affect the outcomes of another. Option A is incorrect because it is broader than economic systems. Option C is incorrect since it deals with emotions rather than strategic choices. Option D is irrelevant to game theory."
+                    "explanation": "A vector is defined as a quantity that has both magnitude and direction, making option B the correct answer. Option A refers to a shape, option C describes a scalar which has magnitude only, and option D describes a linear equation."
                 },
                 {
-                    "subtopic": "Key Terms",
-                    "question": "What does the term 'Nash Equilibrium' refer to in game theory?",
-                    "option_A": "A situation where players cooperate",
-                    "option_B": "A point where no player can benefit from changing their strategy unilaterally",
-                    "option_C": "The maximum point of profit in a game",
-                    "option_D": "A type of zero-sum game",
+                    "subtopic": "Matrices",
+                    "question": "What is a matrix?",
+                    "option_A": "A single number",
+                    "option_B": "A rectangular array of numbers",
+                    "option_C": "A type of vector",
+                    "option_D": "A geometric figure",
                     "answer": "B",
-                    "explanation": "Nash Equilibrium occurs when players in a game choose their strategies such that no player can gain by changing their strategy alone. Option A refers to cooperative games, option C is related but incorrect, and option D describes a specific type of game, not the equilibrium."
+                    "explanation": "A matrix is defined as a rectangular array of numbers, making option B the correct choice. Option A describes a scalar, option C is incorrect as a matrix is not a vector, and option D refers to a geometric shape."
                 },
                 {
-                    "subtopic": "Types of Games",
-                    "question": "Which of the following is considered a non-cooperative game?",
-                    "option_A": "Prisoner's Dilemma",
-                    "option_B": "Collaborative project",
-                    "option_C": "Charity auction",
-                    "option_D": "League of Nations negotiations",
+                    "subtopic": "Determinants",
+                    "question": "What is the determinant of a matrix used for?",
+                    "option_A": "To find the inverse of the matrix",
+                    "option_B": "To determine if a system has a unique solution",
+                    "option_C": "To calculate the rank of the matrix",
+                    "option_D": "To add two matrices",
+                    "answer": "B",
+                    "explanation": "The determinant of a matrix is primarily used to determine if a system of linear equations has a unique solution. Option A is related to the determinant but not its primary use, option C is incorrect in direct context, and option D describes matrix addition, which does not involve determinants."
+                },
+                {
+                    "subtopic": "Eigenvalues",
+                    "question": "What are eigenvalues?",
+                    "option_A": "Solutions to a differential equation",
+                    "option_B": "Scalars associated with a linear transformation",
+                    "option_C": "Vectors in the solution space",
+                    "option_D": "The size of a matrix",
+                    "answer": "B",
+                    "explanation": "Eigenvalues are defined as scalars associated with a linear transformation, making option B the correct answer. Option A relates to differential equations, option C describes eigenvectors, and option D is not related to eigenvalues."
+                },
+                {
+                    "subtopic": "Scalars",
+                    "question": "What is a scalar?",
+                    "option_A": "A quantity that has only direction",
+                    "option_B": "A quantity that has both magnitude and direction",
+                    "option_C": "A single number without direction",
+                    "option_D": "A matrix composed of zeroes",
+                    "answer": "C",
+                    "explanation": "A scalar is defined as a quantity that has only magnitude and no direction, making option C correct. Option A describes a vector, option B misrepresents a scalar, and option D describes a specific type of matrix."
+                },
+                {
+                    "subtopic": "Linear Independence",
+                    "question": "What does linear independence mean?",
+                    "option_A": "Vectors that can be expressed as a linear combination of others",
+                    "option_B": "A set of vectors that cannot be expressed as a linear combination of others",
+                    "option_C": "All vectors are scalars",
+                    "option_D": "Vectors that are orthogonal to each other",
+                    "answer": "B",
+                    "explanation": "Linear independence refers to a set of vectors that cannot be expressed as a linear combination of other vectors, making option B correct. Option A describes linear dependence, option C is incorrect, and option D relates to orthogonality, which does not imply linear independence."
+                },
+                {
+                    "subtopic": "Null Space",
+                    "question": "What is the null space of a matrix?",
+                    "option_A": "The space of all vectors that transform to zero",
+                    "option_B": "The space of all invertible matrices",
+                    "option_C": "The space of all eigenvectors",
+                    "option_D": "The space of the determinant values",
                     "answer": "A",
-                    "explanation": "The Prisoner's Dilemma exemplifies a non-cooperative game where individuals cannot coordinate their actions. Options B and D involve cooperation, while C suggests aspects of cooperative behavior."
+                    "explanation": "The null space of a matrix consists of all vectors that transform to the zero vector when multiplied by the matrix, making option A the correct answer. Option B is incorrect as it describes invertibility, option C refers to eigenvectors, and option D has no relevance."
                 },
                 {
-                    "subtopic": "Common Strategies",
-                    "question": "What is a dominant strategy in game theory?",
-                    "option_A": "The worst strategy to play",
-                    "option_B": "A strategy that is best for a player regardless of what the opponents do",
-                    "option_C": "A strategy that always leads to equal payoffs",
-                    "option_D": "A strategy that requires communication",
-                    "answer": "B",
-                    "explanation": "A dominant strategy is one that results in the highest payoff for a player, no matter what the other players decide. Option A is incorrect because a dominant strategy is never the worst. Option C incorrectly describes the outcome, and option D assumes communication is necessary, which is not a case in non-cooperative games."
-                },
-                {
-                    "subtopic": "Applications of Game Theory",
-                    "question": "Where can game theory be applied?",
-                    "option_A": "Only in economics",
-                    "option_B": "In biology, politics, and social sciences",
-                    "option_C": "Only in computer science",
-                    "option_D": "Only in gambling",
-                    "answer": "B",
-                    "explanation": "Game theory is widely applicable across many fields, including biology to study evolution, in political strategies, and in economics. Option A and C restrict the application, while option D is too limited."
-                },
-                {
-                    "subtopic": "Payoff Matrix",
-                    "question": "What is a payoff matrix used for in game theory?",
-                    "option_A": "To display the history of game plays",
-                    "option_B": "To summarize the strategies and payoffs for all players",
-                    "option_C": "To estimate the final score of a game",
-                    "option_D": "To indicate the length of the game",
-                    "answer": "B",
-                    "explanation": "A payoff matrix organizes the strategies of players and the resulting payoffs, showing the outcomes of different combinations of strategies. Option A is incorrect because it does not represent payoffs. Option C assumes a scoring system that is not applicable universally, and D is irrelevant."
-                },
-                {
-                    "subtopic": "Zero-Sum Games",
-                    "question": "What characterizes a zero-sum game?",
-                    "option_A": "The total gains and losses among the players sum to zero",
-                    "option_B": "No player can lose",
-                    "option_C": "At least one player must win continuously",
-                    "option_D": "Players can share resources equally",
+                    "subtopic": "Basis",
+                    "question": "What is a basis in linear algebra?",
+                    "option_A": "A set of vectors that spans a vector space and is linearly independent",
+                    "option_B": "A vector that points in the direction of a transformation",
+                    "option_C": "A scalar value representing a ratio",
+                    "option_D": "A matrix formed from the basis vectors",
                     "answer": "A",
-                    "explanation": "In a zero-sum game, one player's gain is exactly balanced by the losses of other players, resulting in a total sum of zero. Option B is incorrect since losses can occur, and C suggests continuous winning, which is not a requirement. Option D misinterprets the premise of competitive strategy."
+                    "explanation": "A basis is defined as a set of vectors that both spans a vector space and is linearly independent, making option A correct. Option B describes directional vectors in a transformation, option C is unrelated, and option D incorrectly describes a structure."
                 },
                 {
-                    "subtopic": "Best Response",
-                    "question": "What is meant by a 'best response' in a game?",
-                    "option_A": "The response that maximizes losses",
-                    "option_B": "A strategy that yields the best outcome in reaction to the opponent's strategy",
-                    "option_C": "A strategy that avoids conflict",
-                    "option_D": "The most commonly played strategy by all players",
+                    "subtopic": "Rank",
+                    "question": "What does the rank of a matrix represent?",
+                    "option_A": "The number of zero rows in a matrix",
+                    "option_B": "The number of linearly independent rows or columns",
+                    "option_C": "The total number of elements in a matrix",
+                    "option_D": "The determinant of the matrix",
                     "answer": "B",
-                    "explanation": "A best response is when a player chooses a strategy that yields the highest payoff given the strategies chosen by other players. Option A is incorrect as it does not align with maximization, C incorrectly suggests avoidance, and D misrepresents the nature of strategic choice."
+                    "explanation": "The rank of a matrix represents the maximum number of linearly independent rows or columns in that matrix, making option B correct. Option A refers to zero rows, option C is about number of elements, and option D describes a different concept."
                 },
                 {
-                    "subtopic": "Simultaneous Games",
-                    "question": "What characterizes simultaneous games?",
-                    "option_A": "Players move sequentially one after another",
-                    "option_B": "Players choose their strategies at the same time without knowledge of opponents' choices",
-                    "option_C": "All players must cooperate",
-                    "option_D": "Strategies are pre-determined",
-                    "answer": "B",
-                    "explanation": "Simultaneous games involve players making decisions at the same time without knowledge of the choices of others. Option A describes sequential games, C assumes cooperation which is not necessary, and D does not apply as strategy choice often varies."
-                },
-                {
-                    "subtopic": "Mixed Strategies",
-                    "question": "What is a mixed strategy in game theory?",
-                    "option_A": "Choosing one strategy only",
-                    "option_B": "Randomly selecting among different strategies based on probabilities",
-                    "option_C": "A collaborative strategy",
-                    "option_D": "A strategy that guarantees a win",
-                    "answer": "B",
-                    "explanation": "A mixed strategy involves players randomizing their actions to improve unpredictability and potentially enhance outcomes. Option A describes a pure strategy, while C is irrelevant to the definition, and D is incorrect as no strategy guarantees winning."
+                    "subtopic": "Orthogonality",
+                    "question": "What does orthogonality mean in terms of vectors?",
+                    "option_A": "Vectors that are parallel to each other",
+                    "option_B": "Vectors that intersect at any angle",
+                    "option_C": "Vectors that are perpendicular to each other",
+                    "option_D": "Vectors that lie on the same line",
+                    "answer": "C",
+                    "explanation": "Orthogonality in vector terms means that vectors are perpendicular to each other, making option C the correct answer. Option A describes parallel vectors, option B is too vague, and option D refers to collinearity."
                 }
             ]
         }
     },
     "day_3": {
-        "subtopic": "Nash Equilibrium Concepts",
-        "subtopic_description": "Understanding Nash Equilibrium, how to find equilibria in different types of games, and examples demonstrating equilibrium outcomes.",
+        "subtopic": "Linear Transformations and Their Properties",
+        "subtopic_description": "Examine linear transformations, their matrices, and how they operate on vector spaces with revised vector spaces concepts.",
         "flashcard_deck": {
-            "topic": "Nash Equilibrium Concepts",
+            "topic": "Linear Transformations and Their Properties",
             "flashcard_pairs": [
                 {
                     "subtopic": "Definition",
-                    "question": "What is a Nash Equilibrium?",
-                    "answer": "A situation where no player can benefit from changing their strategy while others keep theirs unchanged."
+                    "question": "What is a linear transformation?",
+                    "answer": "A function mapping vector spaces preserving addition and scalar multiplication."
                 },
                 {
-                    "subtopic": "Characteristics",
-                    "question": "What are the key characteristics of a Nash Equilibrium?",
-                    "answer": "Mutual best responses and stability."
+                    "subtopic": "Properties",
+                    "question": "What is one key property of linear transformations?",
+                    "answer": "They preserve vector addition."
                 },
                 {
-                    "subtopic": "Examples",
-                    "question": "Can you name a classic example of a Nash Equilibrium?",
-                    "answer": "Prisoner's Dilemma."
+                    "subtopic": "Properties",
+                    "question": "Do linear transformations preserve scalar multiplication?",
+                    "answer": "Yes."
                 },
                 {
-                    "subtopic": "Applications",
-                    "question": "In which field is Nash Equilibrium particularly applicable?",
-                    "answer": "Game Theory."
+                    "subtopic": "Matrix Representation",
+                    "question": "How can linear transformations be represented?",
+                    "answer": "Using matrices."
                 },
                 {
-                    "subtopic": "Types",
-                    "question": "What are the two main types of Nash Equilibria?",
-                    "answer": "Pure strategy and mixed strategy."
+                    "subtopic": "Kernel",
+                    "question": "What is the kernel of a linear transformation?",
+                    "answer": "The set of vectors that map to the zero vector."
                 },
                 {
-                    "subtopic": "Calculation",
-                    "question": "How is a Nash Equilibrium typically identified in a game?",
-                    "answer": "By finding best response strategies."
+                    "subtopic": "Image",
+                    "question": "What is the image of a linear transformation?",
+                    "answer": "The set of all output vectors."
                 },
                 {
-                    "subtopic": "Assumptions",
-                    "question": "What assumption underlies Nash Equilibrium?",
-                    "answer": "Rationality of players."
+                    "subtopic": "Dimension",
+                    "question": "What does the Rank-Nullity Theorem relate to?",
+                    "answer": "The dimensions of kernel and image."
                 },
                 {
-                    "subtopic": "Limitations",
-                    "question": "What is a limitation of the Nash Equilibrium concept?",
-                    "answer": "Multiple equilibria may exist."
+                    "subtopic": "Injections",
+                    "question": "What property defines a one-to-one linear transformation?",
+                    "answer": "Injective."
                 },
                 {
-                    "subtopic": "Relation to Pareto Efficiency",
-                    "question": "How does Nash Equilibrium relate to Pareto Efficiency?",
-                    "answer": "Not necessarily efficient."
+                    "subtopic": "Surjections",
+                    "question": "What property defines a onto linear transformation?",
+                    "answer": "Surjective."
                 },
                 {
-                    "subtopic": "Evolutionary Game Theory",
-                    "question": "In which theory is Nash Equilibrium often discussed?",
-                    "answer": "Evolutionary Game Theory."
+                    "subtopic": "Linear Combination",
+                    "question": "What is a linear combination of vectors?",
+                    "answer": "A sum of scalar multiples of the vectors."
                 },
                 {
-                    "subtopic": "Mixed Strategy",
-                    "question": "What is a mixed strategy Nash Equilibrium?",
-                    "answer": "Randomization of strategies."
+                    "subtopic": "Transformation of Basis",
+                    "question": "What happens to a basis under a linear transformation?",
+                    "answer": "It transforms into another set of vectors."
                 },
                 {
-                    "subtopic": "Asymmetric Information",
-                    "question": "How does asymmetric information affect Nash Equilibria?",
-                    "answer": "Can lead to different equilibria outcomes."
+                    "subtopic": "Identity Transformation",
+                    "question": "What is the identity transformation?",
+                    "answer": "A transformation that maps every vector to itself."
                 },
                 {
-                    "subtopic": "Stability",
-                    "question": "What does stability in Nash Equilibrium imply?",
-                    "answer": "Resistance to small changes."
+                    "subtopic": "Inverse Transformation",
+                    "question": "What is an inverse of a linear transformation?",
+                    "answer": "A transformation that reverses the mapping."
                 },
                 {
-                    "subtopic": "Dynamic Games",
-                    "question": "How is Nash Equilibrium applied in dynamic games?",
-                    "answer": "Involves strategies over time."
+                    "subtopic": "Composition",
+                    "question": "What is the composition of two linear transformations?",
+                    "answer": "The combination of two transformations applied sequentially."
                 },
                 {
-                    "subtopic": "Repeated Games",
-                    "question": "What is a notable feature of Nash Equilibrium in repeated games?",
-                    "answer": "Strategic cooperation."
+                    "subtopic": "Effects on Angles",
+                    "question": "Do linear transformations preserve angles?",
+                    "answer": "Not necessarily."
                 },
                 {
-                    "subtopic": "Correlated Equilibrium",
-                    "question": "What is a correlated equilibrium?",
-                    "answer": "Extension of Nash including recommendations."
+                    "subtopic": "Effects on Lengths",
+                    "question": "Do linear transformations preserve lengths?",
+                    "answer": "Not necessarily."
                 },
                 {
-                    "subtopic": "Debate",
-                    "question": "What is a common criticism of Nash Equilibrium?",
-                    "answer": "Overly simplistic in some contexts."
+                    "subtopic": "Subspaces",
+                    "question": "What type of subsets do linear transformations map to?",
+                    "answer": "Subspaces."
                 },
                 {
-                    "subtopic": "Real World Example",
-                    "question": "Give a real-world example where Nash Equilibrium can be observed.",
-                    "answer": "Oligopoly pricing."
+                    "subtopic": "Linear Independence",
+                    "question": "Can the image of a set of linearly independent vectors still be linearly independent?",
+                    "answer": "Yes, under injective transformations."
                 },
                 {
-                    "subtopic": "Origin",
-                    "question": "Who introduced the concept of Nash Equilibrium?",
-                    "answer": "John Nash."
+                    "subtopic": "Standard Basis",
+                    "question": "What is the standard basis in R^n?",
+                    "answer": "The vectors with a 1 in one position and 0 elsewhere."
                 },
                 {
-                    "subtopic": "Coalition Games",
-                    "question": "How is Nash Equilibrium viewed in coalition games?",
-                    "answer": "Coalition stability."
+                    "subtopic": "Affine Transformations",
+                    "question": "What distinguishes affine transformations from linear ones?",
+                    "answer": "They include translation."
                 }
             ]
         },
-        "progress_revision_topic": "Types of Games in Game Theory",
+        "progress_revision_topic": "Understanding Vector Spaces",
         "revision_quiz": {
-            "topic": "Types of Games in Game Theory",
+            "topic": "Understanding Vector Spaces",
             "difficulty": "Medium",
             "quiz_questions": [
                 {
-                    "subtopic": "Cooperative vs. Non-Cooperative Games",
-                    "question": "In game theory, what distinguishes cooperative games from non-cooperative games?",
-                    "option_A": "Cooperative games allow communication and enforceable agreements among players.",
-                    "option_B": "Non-cooperative games involve cooperation among players for mutual benefit.",
-                    "option_C": "Cooperative games are always zero-sum games.",
-                    "option_D": "Non-cooperative games require players to form coalitions always.",
+                    "subtopic": "Definition of Vector Spaces",
+                    "question": "Which of the following is NOT a requirement for a set to be classified as a vector space?",
+                    "option_A": "Closure under addition",
+                    "option_B": "Existence of a zero vector",
+                    "option_C": "Dependence of vectors",
+                    "option_D": "Closure under scalar multiplication",
+                    "answer": "C",
+                    "explanation": "A vector space requires closure under addition and scalar multiplication, as well as the existence of a zero vector. Dependence of vectors is not a requirement; in fact, a vector space can have linearly independent vectors."
+                },
+                {
+                    "subtopic": "Linear Independence",
+                    "question": "If a set of vectors is linearly independent, what does that imply about their relationship?",
+                    "option_A": "They can be expressed as a linear combination of each other",
+                    "option_B": "No vector in the set can be written as a linear combination of the others",
+                    "option_C": "They all lie in the same plane",
+                    "option_D": "They are all zero vectors",
+                    "answer": "B",
+                    "explanation": "Linear independence means that no vector in the set can be expressed as a linear combination of the other vectors; this is the defining characteristic of linear independence."
+                },
+                {
+                    "subtopic": "Basis of Vector Spaces",
+                    "question": "What is a basis of a vector space?",
+                    "option_A": "A set of vectors that spans the space and is linearly dependent",
+                    "option_B": "A set of vectors that spans the space and is linearly independent",
+                    "option_C": "Any set of vectors in the space regardless of dependence",
+                    "option_D": "A single vector that spans the space",
+                    "answer": "B",
+                    "explanation": "A basis of a vector space is a set of vectors that both spans the space and is linearly independent, which allows for the unique representation of any vector in the space as a linear combination of the basis vectors."
+                },
+                {
+                    "subtopic": "Dimension of Vector Spaces",
+                    "question": "If a vector space has a basis consisting of 5 vectors, what can be concluded about its dimension?",
+                    "option_A": "It can have at most 5 independent vectors",
+                    "option_B": "Its dimension is 10",
+                    "option_C": "It can have infinitely many vectors",
+                    "option_D": "Its dimension is 5",
+                    "answer": "D",
+                    "explanation": "The dimension of a vector space is defined as the number of vectors in a basis for that space. Therefore, if the basis consists of 5 vectors, the dimension is 5."
+                },
+                {
+                    "subtopic": "Null Space of a Matrix",
+                    "question": "What does the null space of a matrix represent?",
+                    "option_A": "The set of all vectors in R^n that can be transformed into zero by the matrix",
+                    "option_B": "The set of all vectors that can be created by multiplying the matrix by a vector",
+                    "option_C": "The space spanned by the rows of the matrix",
+                    "option_D": "The determinant of the matrix",
                     "answer": "A",
-                    "explanation": "Cooperative games allow players to negotiate and form binding agreements to achieve the best outcome, while non-cooperative games do not permit binding agreements, leading to competitive strategies."
+                    "explanation": "The null space of a matrix consists of all vectors that yield the zero vector when the matrix is applied to them, which is a critical concept in linear transformations."
                 },
                 {
-                    "subtopic": "Zero-Sum Games",
-                    "question": "Which of the following statements is true about zero-sum games in game theory?",
-                    "option_A": "The total gain and loss for all players sum to zero at the end.",
-                    "option_B": "Players can cooperate to achieve a better outcome than strictly competitive play.",
-                    "option_C": "The strategies used by players are independent and irrelevant to each other.",
-                    "option_D": "Zero-sum games always result in a win for one player and a loss for another, with no ties.",
+                    "subtopic": "Vector Space Subspaces",
+                    "question": "Which of the following is true about a subspace of a vector space?",
+                    "option_A": "It must contain the zero vector and be closed under operations",
+                    "option_B": "It can never have the zero vector",
+                    "option_C": "It always has exactly two vectors",
+                    "option_D": "Its dimension is always greater than the original vector space",
                     "answer": "A",
-                    "explanation": "In a zero-sum game, one player's gain is exactly matched by the losses of other players, making the total outcome for all players sum to zero."
+                    "explanation": "A subspace must contain the zero vector, must be closed under addition and scalar multiplication, which ensures it retains the structure of a vector space itself."
                 },
                 {
-                    "subtopic": "Simultaneous vs. Sequential Games",
-                    "question": "In simultaneous games, players make decisions without knowing the choices of others. Which statement about sequential games is correct?",
-                    "option_A": "Players make their decisions simultaneously.",
-                    "option_B": "Players take turns making decisions, allowing later players to see previous actions.",
-                    "option_C": "Players must make their decisions before any other player acts.",
-                    "option_D": "Sequential games cannot be represented in normal form.",
+                    "subtopic": "Span of a Set of Vectors",
+                    "question": "What does the span of a set of vectors represent in a vector space?",
+                    "option_A": "The largest possible vector in the vector space",
+                    "option_B": "All possible linear combinations of the given set of vectors",
+                    "option_C": "The intersection of all vector subspaces created by those vectors",
+                    "option_D": "Only the vectors themselves without linear combinations",
                     "answer": "B",
-                    "explanation": "Sequential games allow players to observe the actions taken by earlier players, which influences their subsequent decisions. This is in contrast to simultaneous games, where players act without knowledge of others' moves."
+                    "explanation": "The span of a set of vectors is the collection of all possible linear combinations of those vectors, effectively representing a subspace of the vector space."
                 },
                 {
-                    "subtopic": "Dominant Strategies",
-                    "question": "What defines a dominant strategy in game theory?",
-                    "option_A": "A strategy that yields the best outcome for a player regardless of what others do.",
-                    "option_B": "A strategy that only works in coordination with others' actions.",
-                    "option_C": "A strategy that can be freely changed without consequences.",
-                    "option_D": "A strategy that is always the worst option available.",
-                    "answer": "A",
-                    "explanation": "A dominant strategy provides a better payoff for a player no matter what the other players choose, making it a preferable choice in competitive environments."
-                },
-                {
-                    "subtopic": "Nash Equilibrium",
-                    "question": "In the context of Nash Equilibrium, what does it mean if a strategy profile satisfies this condition?",
-                    "option_A": "Players can unilaterally improve their payoff by changing strategies.",
-                    "option_B": "No player can benefit by changing their strategy if the strategies of the others remain unchanged.",
-                    "option_C": "All players must play the same strategy to achieve equilibrium.",
-                    "option_D": "It is always a socially optimal outcome that maximizes collective payoffs.",
+                    "subtopic": "Orthogonality in Vector Spaces",
+                    "question": "What does it mean for two vectors to be orthogonal in a vector space?",
+                    "option_A": "They point in the same direction",
+                    "option_B": "Their dot product is zero",
+                    "option_C": "They are scalar multiples of each other",
+                    "option_D": "They lie along the same line",
                     "answer": "B",
-                    "explanation": "A Nash Equilibrium occurs when no player can benefit from unilaterally changing their strategy while the others keep theirs the same. It doesn't always align with social optimum."
+                    "explanation": "Two vectors are considered orthogonal if their dot product is zero, indicating they are at a right angle to each other in the context of Euclidean vector spaces."
                 },
                 {
-                    "subtopic": "Mixed Strategy Equilibrium",
-                    "question": "What is a mixed strategy in game theory?",
-                    "option_A": "A strategy where players use randomization in their decisions.",
-                    "option_B": "A strategy that guarantees the highest payoff without competition.",
-                    "option_C": "A strategy that includes only pure strategies.",
-                    "option_D": "A combined strategy used in cooperative game scenarios.",
-                    "answer": "A",
-                    "explanation": "A mixed strategy involves players randomizing over available strategies, choosing different actions based on specific probabilities to keep opponents uncertain."
+                    "subtopic": "Row Space and Column Space",
+                    "question": "Which of the following statements about the row space and the column space of a matrix is TRUE?",
+                    "option_A": "The row space is the same as the null space.",
+                    "option_B": "The dimension of the row space equals the number of rows.",
+                    "option_C": "The dimension of the row space and column space are both equal to the rank of the matrix.",
+                    "option_D": "The column space contains only zero vectors.",
+                    "answer": "C",
+                    "explanation": "The dimension of both row space and column space corresponds to the rank of the matrix, reflecting the number of linearly independent rows and columns, respectively. They are related but not always identical."
                 },
                 {
-                    "subtopic": "Best Response",
-                    "question": "In game theory, what does the 'best response' concept refer to?",
-                    "option_A": "The highest score a player can achieve in a game.",
-                    "option_B": "The strategy that maximizes a player's payoff given the strategies chosen by others.",
-                    "option_C": "A strategy that guarantees a win against any opponent's move.",
-                    "option_D": "The average outcome of multiple strategies over time.",
+                    "subtopic": "Coordinate Systems in Vector Spaces",
+                    "question": "In a vector space, what is the purpose of a coordinate system?",
+                    "option_A": "To define the angle between vectors",
+                    "option_B": "To provide a way to represent vectors with numbers",
+                    "option_C": "To determine the dimension of the space",
+                    "option_D": "To measure the magnitude of vectors",
                     "answer": "B",
-                    "explanation": "The best response to a given strategy is the one that yields the highest payoff for a player, considering the strategies the opponents have chosen."
-                },
-                {
-                    "subtopic": "Symmetric vs. Asymmetric Games",
-                    "question": "What key feature differentiates symmetric games from asymmetric games?",
-                    "option_A": "Symmetric games always involve cooperation, while asymmetric games do not.",
-                    "option_B": "In symmetric games, all players have the same available strategies and payoffs are identical across players.",
-                    "option_C": "Asymmetric games are always cooperative, while symmetric games are competitive.",
-                    "option_D": "Symmetric games have fixed payoffs, whereas asymmetric games have variable payoffs based on actions.",
-                    "answer": "B",
-                    "explanation": "In symmetric games, players have identical strategies and payoffs, meaning any player's payoff structure is mirrored by others, unlike in asymmetric games."
-                },
-                {
-                    "subtopic": "Extensive Form Games",
-                    "question": "How is an extensive form game represented in game theory?",
-                    "option_A": "As a matrix showing players' payoffs for each strategy combination.",
-                    "option_B": "Through a tree diagram that represents sequential moves.",
-                    "option_C": "Using a single equation to summarise player strategies.",
-                    "option_D": "In a circular format that illustrates game outcomes.",
-                    "answer": "B",
-                    "explanation": "Extensive form games are depicted using tree diagrams to show the sequence of moves, allowing players to see how the game progresses over time."
-                },
-                {
-                    "subtopic": "Subgame Perfect Equilibrium",
-                    "question": "What characterizes a subgame perfect equilibrium in extensive form games?",
-                    "option_A": "It only exists in zero-sum games.",
-                    "option_B": "Every subgame has a Nash Equilibrium, ensuring optimal decisions at every stage.",
-                    "option_C": "It requires that all players cooperate for a stable outcome.",
-                    "option_D": "It applies only to simultaneous games with fixed strategies.",
-                    "answer": "B",
-                    "explanation": "Subgame perfect equilibrium ensures that the strategies constitute a Nash Equilibrium in every subgame, resulting in rational and optimal decisions at each stage."
+                    "explanation": "A coordinate system allows for the representation of vectors in numerical form, facilitating operations like addition, scalar multiplication, and comparisons between vectors."
                 }
             ]
         }
     },
     "day_4": {
-        "subtopic": "Dominated Strategies and Their Applications",
-        "subtopic_description": "Analyze dominated and dominant strategies, examples of how players can benefit from these concepts in strategic decision-making.",
+        "subtopic": "Eigenvalues and Eigenvectors Fundamentals",
+        "subtopic_description": "Delve into the concepts of eigenvalues and eigenvectors, overcoming common challenges and linking to linear transformations.",
         "flashcard_deck": {
-            "topic": "Dominated Strategies and Their Applications",
+            "topic": "Eigenvalues and Eigenvectors Fundamentals",
             "flashcard_pairs": [
                 {
-                    "subtopic": "Definition",
-                    "question": "What is a dominated strategy?",
-                    "answer": "A strategy that is worse than another strategy regardless of the opponent's actions."
+                    "subtopic": "Definitions",
+                    "question": "What is an eigenvalue?",
+                    "answer": "A scalar that indicates how much a transformation stretches or compresses vectors."
                 },
                 {
-                    "subtopic": "Types of Dominated Strategies",
-                    "question": "What are the two types of dominated strategies?",
-                    "answer": "Strictly dominated and weakly dominated."
+                    "subtopic": "Definitions",
+                    "question": "What is an eigenvector?",
+                    "answer": "A non-zero vector that changes by only a scalar factor when a linear transformation is applied."
                 },
                 {
-                    "subtopic": "Characteristics",
-                    "question": "What is a characteristic of a strictly dominated strategy?",
-                    "answer": "It is always less effective than another strategy."
+                    "subtopic": "Matrix Properties",
+                    "question": "What property must a matrix have to find eigenvalues?",
+                    "answer": "Square matrix."
                 },
                 {
-                    "subtopic": "Game Theory",
-                    "question": "In game theory, what does eliminating dominated strategies lead to?",
-                    "answer": "Nash equilibrium."
+                    "subtopic": "Characteristic Polynomial",
+                    "question": "What is the equation used to find eigenvalues?",
+                    "answer": "Det(A - \u03bbI) = 0."
+                },
+                {
+                    "subtopic": "Eigenvalue Calculation",
+                    "question": "How are eigenvalues represented in the characteristic equation?",
+                    "answer": "As \u03bb."
+                },
+                {
+                    "subtopic": "Eigenvector Calculation",
+                    "question": "How do you compute eigenvectors from eigenvalues?",
+                    "answer": "Solve (A - \u03bbI)v = 0."
+                },
+                {
+                    "subtopic": "Multiplicity",
+                    "question": "What is algebraic multiplicity?",
+                    "answer": "The number of times an eigenvalue appears in the characteristic polynomial."
+                },
+                {
+                    "subtopic": "Multiplicity",
+                    "question": "What is geometric multiplicity?",
+                    "answer": "The number of linearly independent eigenvectors associated with an eigenvalue."
+                },
+                {
+                    "subtopic": "Diagonalization",
+                    "question": "What is required for a matrix to be diagonalizable?",
+                    "answer": "It must have enough linearly independent eigenvectors."
                 },
                 {
                     "subtopic": "Applications",
-                    "question": "Where can dominated strategies be applied?",
-                    "answer": "Economics, political science, and decision theory."
+                    "question": "In which field are eigenvalues and eigenvectors used for data reduction?",
+                    "answer": "Principal Component Analysis (PCA)."
+                },
+                {
+                    "subtopic": "Stability Analysis",
+                    "question": "How are eigenvalues used in system stability analysis?",
+                    "answer": "They indicate the stability of equilibrium points."
+                },
+                {
+                    "subtopic": "Linear Transformations",
+                    "question": "What effect do positive eigenvalues have on a transformation?",
+                    "answer": "They stretch vectors."
+                },
+                {
+                    "subtopic": "Linear Transformations",
+                    "question": "What effect do negative eigenvalues have on a transformation?",
+                    "answer": "They reflect and possibly invert vectors."
                 },
                 {
                     "subtopic": "Example",
-                    "question": "Give an example of a dominated strategy in a two-player game.",
-                    "answer": "Choosing to play \u2018Rock\u2019 when \u2018Paper\u2019 exists."
+                    "question": "What are the eigenvalues of the identity matrix?",
+                    "answer": "All ones."
                 },
                 {
-                    "subtopic": "Identification",
-                    "question": "How can players identify dominated strategies?",
-                    "answer": "By comparing payoffs in a payoff matrix."
+                    "subtopic": "Example",
+                    "question": "What is the eigenvalue of a zero matrix?",
+                    "answer": "Zero."
                 },
                 {
-                    "subtopic": "Rational Decision",
-                    "question": "What does the presence of dominated strategies suggest about rational decision-making?",
-                    "answer": "It simplifies strategic choices."
+                    "subtopic": "Spectral Theorem",
+                    "question": "What does the Spectral Theorem state about symmetric matrices?",
+                    "answer": "They have real eigenvalues and orthogonal eigenvectors."
                 },
                 {
-                    "subtopic": "Mixed Strategies",
-                    "question": "What is a mixed strategy in relation to dominated strategies?",
-                    "answer": "A probability distribution over pure strategies."
+                    "subtopic": "Jacobi Method",
+                    "question": "Which algorithm is used to compute eigenvalues of symmetric matrices?",
+                    "answer": "Jacobi Method."
                 },
                 {
-                    "subtopic": "Prisoner's Dilemma",
-                    "question": "What role do dominated strategies play in the Prisoner's Dilemma?",
-                    "answer": "Both players have a strictly dominated strategy to confess."
+                    "subtopic": "Eigenvector Normalization",
+                    "question": "What is often done to eigenvectors for consistency?",
+                    "answer": "Normalization."
                 },
                 {
-                    "subtopic": "Strategy Profiles",
-                    "question": "What is a strategy profile in game theory?",
-                    "answer": "A combination of strategies chosen by all players."
+                    "subtopic": "Eigenvalue Properties",
+                    "question": "Can eigenvalues of a triangular matrix be found on its?",
+                    "answer": "Diagonal."
                 },
                 {
-                    "subtopic": "Dominated vs. Dominating",
-                    "question": "What is the opposite of a dominated strategy?",
-                    "answer": "Dominating strategy."
-                },
-                {
-                    "subtopic": "Iterated Elimination",
-                    "question": "What is iterated elimination of dominated strategies?",
-                    "answer": "Repeatedly removing dominated strategies from consideration."
-                },
-                {
-                    "subtopic": "Behavioral Economics",
-                    "question": "How do dominated strategies affect behavioral economics?",
-                    "answer": "They highlight irrational decision-making."
-                },
-                {
-                    "subtopic": "Game Analysis",
-                    "question": "Why is dominated strategy analysis important in games?",
-                    "answer": "It streamlines complex strategic interactions."
-                },
-                {
-                    "subtopic": "Nash Equilibrium",
-                    "question": "Can a Nash equilibrium exist with dominated strategies?",
-                    "answer": "Yes, but dominated strategies are typically excluded."
-                },
-                {
-                    "subtopic": "Contributions",
-                    "question": "Who significantly contributed to the theory of dominated strategies?",
-                    "answer": "John von Neumann."
-                },
-                {
-                    "subtopic": "Practical Examples",
-                    "question": "What are practical examples of dominated strategies?",
-                    "answer": "Low-quality pricing in competitive markets."
-                },
-                {
-                    "subtopic": "Dominated Choices",
-                    "question": "Why should players avoid dominated choices?",
-                    "answer": "They yield lower payoffs."
-                },
-                {
-                    "subtopic": "Strategic Interaction",
-                    "question": "What do dominated strategies simplify in strategic interaction?",
-                    "answer": "Decision-making processes."
+                    "subtopic": "Applications",
+                    "question": "In which application is eigenvalue decomposition particularly useful?",
+                    "answer": "Vibrational modes analysis."
                 }
             ]
         },
-        "progress_revision_topic": "Nash Equilibrium Concepts",
+        "progress_revision_topic": "Linear Transformations and Their Properties",
         "revision_quiz": {
-            "topic": "Nash Equilibrium Concepts",
+            "topic": "Linear Transformations and Their Properties",
             "difficulty": "Medium",
             "quiz_questions": [
                 {
-                    "subtopic": "Definition of Nash Equilibrium",
-                    "question": "What is a Nash Equilibrium?",
-                    "option_A": "A state where players can benefit by changing their strategy unilaterally",
-                    "option_B": "A situation where each player's strategy is optimal given the strategies of others",
-                    "option_C": "A scenario with no dominant strategies for the players",
-                    "option_D": "A condition where players cooperate for mutual benefit",
-                    "answer": "B",
-                    "explanation": "A Nash Equilibrium is a situation in a game where each player's strategy is optimal given the strategies of other players, meaning that no player can benefit by changing their strategy while the other players keep theirs unchanged."
-                },
-                {
-                    "subtopic": "Application of Nash Equilibrium",
-                    "question": "In a two-player game, if Player 1 prefers Strategy A and Player 2 prefers Strategy B, what can we infer about their strategies in Nash Equilibrium?",
-                    "option_A": "They will both switch preferences to the other's strategy.",
-                    "option_B": "Their strategies will never reach a Nash Equilibrium.",
-                    "option_C": "They may reach equilibria without necessarily playing their preferred strategies.",
-                    "option_D": "Nash Equilibrium cannot occur if preferences differ.",
-                    "answer": "C",
-                    "explanation": "In Nash Equilibrium, players do not have to play their preferred strategies. They can still reach an equilibrium based on their actual choices even if those choices are not their preferred ones."
-                },
-                {
-                    "subtopic": "Mixed Strategies",
-                    "question": "When might players choose mixed strategies in a Nash Equilibrium context?",
-                    "option_A": "When there exists a dominant strategy available for both players",
-                    "option_B": "When players wish to randomize to make the opponent indifferent",
-                    "option_C": "When all strategies are strictly inferior",
-                    "option_D": "When both players know the exact moves of each other",
-                    "answer": "B",
-                    "explanation": "Players may choose mixed strategies to keep opponents indifferent among their strategies, which can lead to a strategic advantage, especially when no pure strategy Nash Equilibrium exists."
-                },
-                {
-                    "subtopic": "Multiple Nash Equilibria",
-                    "question": "In a game with multiple Nash Equilibria, which statement is true?",
-                    "option_A": "All equilibria must yield the same payoff to all players",
-                    "option_B": "There is only one Nash Equilibrium in such games",
-                    "option_C": "Players must coordinate to reach an equilibrium",
-                    "option_D": "Different Nash Equilibria may yield different payoffs for players",
-                    "answer": "D",
-                    "explanation": "In games with multiple Nash Equilibria, it is possible for each equilibrium to yield different payoffs for the players, which can affect their strategies and outcomes."
-                },
-                {
-                    "subtopic": "Nash Equilibrium in Cooperation",
-                    "question": "What does Nash Equilibrium reveal about cooperation among players in non-cooperative games?",
-                    "option_A": "Cooperation is always necessary to achieve Nash Equilibrium",
-                    "option_B": "It shows that players prefer to act in their own self-interest",
-                    "option_C": "Players must establish binding agreements to achieve it",
-                    "option_D": "Nash Equilibrium can only be reached through repeated games",
-                    "answer": "B",
-                    "explanation": "The concept of Nash Equilibrium demonstrates that in non-cooperative games, players often act in their own self-interest, leading to outcomes that are stable yet not necessarily optimal for all."
-                },
-                {
-                    "subtopic": "Pure vs Mixed Strategy Equilibria",
-                    "question": "How can you distinguish between a pure strategy Nash Equilibrium and a mixed strategy Nash Equilibrium?",
-                    "option_A": "Pure strategies involve randomized tactics",
-                    "option_B": "Mixed strategies involve players playing a single strategy",
-                    "option_C": "Pure strategies result in deterministic outcomes",
-                    "option_D": "Mixed strategies yield consistent outcomes across games",
-                    "answer": "C",
-                    "explanation": "A pure strategy Nash Equilibrium involves players selecting a specific strategy without randomization, resulting in a deterministic outcome, while a mixed strategy involves randomness."
-                },
-                {
-                    "subtopic": "Externalities and Nash Equilibrium",
-                    "question": "How do negative externalities affect the Nash Equilibrium in a market environment?",
-                    "option_A": "They don\u2019t alter Nash Equilibria since it relates only to preferences",
-                    "option_B": "They can push the market into multiple equilibria outcomes",
-                    "option_C": "Negative externalities ensure that Nash Equilibrium is efficient",
-                    "option_D": "They often lead to suboptimal equilibria, requiring intervention",
-                    "answer": "D",
-                    "explanation": "Negative externalities can lead to market outcomes that are inefficient, creating a situation where the Nash Equilibrium results in suboptimal outcomes, often necessitating some external intervention."
-                },
-                {
-                    "subtopic": "Repeated Games and Nash Equilibrium",
-                    "question": "In repeated games, how might Nash Equilibrium differ from one-shot games?",
-                    "option_A": "Players are incentivized to cooperate in the long run",
-                    "option_B": "Nash Equilibria lose their significance in repeated games",
-                    "option_C": "Strategies become strictly competitive over time",
-                    "option_D": "No new Nash Equilibria can emerge",
+                    "subtopic": "Definition of Linear Transformations",
+                    "question": "What is a linear transformation?",
+                    "option_A": "A function that satisfies additivity and homogeneity.",
+                    "option_B": "A mapping that is only defined for one vector at a time.",
+                    "option_C": "A function that compresses vectors into scalars.",
+                    "option_D": "A transformation that reverses the direction of vectors.",
                     "answer": "A",
-                    "explanation": "In repeated games, players may find it beneficial to cooperate because the potential for future interactions allows for punishments and rewards based on current behavior, unlike in one-shot games."
+                    "explanation": "A linear transformation is defined as a function between vector spaces that satisfies the properties of additivity (T(u + v) = T(u) + T(v)) and homogeneity (T(cu) = cT(u) for any scalar c). Options B, C, and D misrepresent the definition by either misapplying the function's purpose or defining it incorrectly."
                 },
                 {
-                    "subtopic": "Role of Information in Nash Equilibrium",
-                    "question": "How does incomplete information impact the existence of Nash Equilibria?",
-                    "option_A": "It guarantees that at least one Nash Equilibrium exists",
-                    "option_B": "It can complicate the determination of equilibria due to uncertainty",
-                    "option_C": "It leads all players to dominant strategies",
-                    "option_D": "Equilibria become irrelevant in the presence of uncertainty",
+                    "subtopic": "Properties of Linear Transformations",
+                    "question": "Which of the following is NOT a property of linear transformations?",
+                    "option_A": "They preserve vector addition.",
+                    "option_B": "They can reverse vectors' orientation.",
+                    "option_C": "They preserve scalar multiplication.",
+                    "option_D": "They satisfy T(0) = 0.",
                     "answer": "B",
-                    "explanation": "Incomplete information can complicate the determination of Nash Equilibria since players may not know what strategies their opponents might choose, introducing uncertainty into the analysis."
+                    "explanation": "While linear transformations preserve vector addition and scalar multiplication, they do not necessarily reverse the orientation of vectors. In fact, linear transformations can result in vectors that maintain or change their orientation based on their matrix representations."
                 },
                 {
-                    "subtopic": "Evolutionary Game Theory",
-                    "question": "In the context of evolutionary game theory, how does Nash Equilibrium help explain evolutionary stability?",
-                    "option_A": "It shows that only one strategy can dominate all others",
-                    "option_B": "An evolutionarily stable strategy must be a Nash Equilibrium",
-                    "option_C": "Nash Equilibrium prevents the evolution of cooperation",
-                    "option_D": "Strategies are not stable unless all are Nash Equilibria",
+                    "subtopic": "Matrix Representation",
+                    "question": "What does the matrix of a linear transformation represent?",
+                    "option_A": "The dimensions of the input and output vectors.",
+                    "option_B": "The geographical representation of transformation in a plane.",
+                    "option_C": "The mapping of vectors from one vector space to another.",
+                    "option_D": "The computational complexity of the transformation.",
+                    "answer": "C",
+                    "explanation": "The matrix of a linear transformation encodes how the transformation acts on vectors in a vector space, mapping them to another vector space. Options A and D are incorrect as they do not accurately describe the matrix. Option B is misleading because the transformation is not geographically limited."
+                },
+                {
+                    "subtopic": "Linear Combination",
+                    "question": "How does a linear transformation relate to linear combinations of vectors?",
+                    "option_A": "Only the resulting vectors can be formed into a linear combination.",
+                    "option_B": "It creates new vectors that can be expressed as linear combinations of input vectors.",
+                    "option_C": "No relationship exists between linear transformations and linear combinations.",
+                    "option_D": "All input vectors must be distinct for a linear combination to be formed.",
                     "answer": "B",
-                    "explanation": "An evolutionarily stable strategy (ESS) is required to be a Nash Equilibrium; it successfully resists invasion by mutant strategies, maintaining stability in a population."
+                    "explanation": "A linear transformation applied to a set of vectors produces new vectors that can indeed be expressed as linear combinations of the transformed input vectors. Options A, C, and D misstate the nature of linear transformations and their relationship to linear combinations."
+                },
+                {
+                    "subtopic": "Kernel of a Linear Transformation",
+                    "question": "What does the kernel of a linear transformation represent?",
+                    "option_A": "The set of all vectors that remain unchanged.",
+                    "option_B": "The transformation's singular matrix representation.",
+                    "option_C": "The set of all input vectors that the transformation maps to the zero vector.",
+                    "option_D": "The total number of dimensions in the transformation's domain.",
+                    "answer": "C",
+                    "explanation": "The kernel consists of all vectors that, when the transformation is applied, yield the zero vector. This is crucial for understanding the behavior and properties of linear transformations. Option A misidentifies the kernel, while options B and D offer irrelevant details."
+                },
+                {
+                    "subtopic": "Image of a Linear Transformation",
+                    "question": "What does the image of a linear transformation indicate?",
+                    "option_A": "The total input vectors affected by the transformation.",
+                    "option_B": "The specific vectors that cannot be reached by the transformation.",
+                    "option_C": "The set of all output vectors produced by the transformation.",
+                    "option_D": "The dimensional restriction on the transformation's input space.",
+                    "answer": "C",
+                    "explanation": "The image of a linear transformation is the set of all possible output vectors, illustrating the transformation's effect. Options A and B confuse concepts, while option D refers to a potentially unrelated idea."
+                },
+                {
+                    "subtopic": "Linear Independence",
+                    "question": "What can we say about the effect of a linear transformation on linearly independent vectors?",
+                    "option_A": "The image of these vectors is always linearly independent.",
+                    "option_B": "They become linearly dependent after the transformation.",
+                    "option_C": "Their linear independence is not guaranteed post-transformation.",
+                    "option_D": "They retain their linear independence only in a square transformation.",
+                    "answer": "C",
+                    "explanation": "While a linear transformation can preserve linear independence, it does not guarantee it. The nature of the transformation and its matrix plays a critical role. Option A misrepresents the situation, while option B is incorrect as dependence isn't assured. Option D presents a limitation that isn't universally applicable."
+                },
+                {
+                    "subtopic": "Invertibility of Linear Transformations",
+                    "question": "Under what condition is a linear transformation invertible?",
+                    "option_A": "If its kernel contains only the zero vector.",
+                    "option_B": "If it has at least one non-zero output vector.",
+                    "option_C": "When its image does not cover the entire codomain.",
+                    "option_D": "If it is represented by a diagonal matrix only.",
+                    "answer": "A",
+                    "explanation": "A linear transformation is invertible if its kernel contains only the zero vector, indicating that it is one-to-one. Options B and C do not address the necessary and sufficient conditions for invertibility, whereas D incorrectly restricts invertibility to a specific matrix type."
+                },
+                {
+                    "subtopic": "Example of Linear Transformation",
+                    "question": "Which of the following is an example of a linear transformation?",
+                    "option_A": "Scaling a vector by a constant factor.",
+                    "option_B": "Adding a fixed vector to the input vector.",
+                    "option_C": "Taking the square of each element of the vector.",
+                    "option_D": "Flipping the coordinates of the vector (x, y) to (y, x).",
+                    "answer": "A",
+                    "explanation": "Scaling a vector by a constant factor is a linear transformation as it respects both additivity and homogeneity. Options B and C violate either additivity or homogeneity, while option D does not preserve scalar multiplication."
+                },
+                {
+                    "subtopic": "Rank of a Linear Transformation",
+                    "question": "How is the rank of a linear transformation defined?",
+                    "option_A": "The number of vectors in the kernel.",
+                    "option_B": "The dimension of its kernel space.",
+                    "option_C": "The number of linearly independent vectors in its image.",
+                    "option_D": "The total input dimension of the transformation.",
+                    "answer": "C",
+                    "explanation": "The rank of a linear transformation is defined as the dimension of its image, representing the number of linearly independent output vectors. Options A and B incorrectly associate rank with kernel dimensions, while D misidentifies input dimensions as rank."
                 }
             ]
         }
     },
     "day_5": {
-        "subtopic": "Mixed Strategy Nash Equilibrium",
-        "subtopic_description": "Introduction to mixed strategies, how to calculate them, and applications in real-world scenarios.",
+        "subtopic": "Advanced Eigenvalue Problems",
+        "subtopic_description": "Focus on solving for eigenvalues and eigenvectors in various contexts, emphasizing application to vector spaces and linear transformations.",
         "flashcard_deck": {
-            "topic": "Mixed Strategy Nash Equilibrium",
+            "topic": "Advanced Eigenvalue Problems",
             "flashcard_pairs": [
                 {
                     "subtopic": "Definition",
-                    "question": "What is a Mixed Strategy Nash Equilibrium?",
-                    "answer": "A strategy where players randomize over available actions."
+                    "question": "What is an eigenvalue?",
+                    "answer": "Scalar value associated with a linear transformation."
                 },
                 {
-                    "subtopic": "Key Concept",
-                    "question": "In what type of games is a Mixed Strategy Nash Equilibrium typically found?",
-                    "answer": "Non-cooperative games."
+                    "subtopic": "Characteristic Polynomial",
+                    "question": "What is used to find eigenvalues in a matrix?",
+                    "answer": "Characteristic polynomial."
                 },
                 {
-                    "subtopic": "Example",
-                    "question": "Give an example of a game that leads to Mixed Strategy Nash Equilibrium.",
-                    "answer": "Rock-paper-scissors."
+                    "subtopic": "Diagonalization",
+                    "question": "What does it mean to diagonalize a matrix?",
+                    "answer": "Express as PDP\u207b\u00b9."
                 },
                 {
-                    "subtopic": "Mathematics",
-                    "question": "What must be equal in a Mixed Strategy Nash Equilibrium for players to be indifferent?",
-                    "answer": "Expected payoffs."
+                    "subtopic": "Eigenvectors",
+                    "question": "What must be non-zero in the eigenvalue equation Av = \u03bbv?",
+                    "answer": "Eigenvectors."
                 },
                 {
-                    "subtopic": "Application",
-                    "question": "What is a common application of Mixed Strategy Nash Equilibrium?",
-                    "answer": "Auction design."
+                    "subtopic": "Multiplicity",
+                    "question": "What is algebraic multiplicity?",
+                    "answer": "Multiplicity of an eigenvalue's root."
                 },
                 {
-                    "subtopic": "Calculation",
-                    "question": "How do players find their mixed strategies in a Nash Equilibrium?",
-                    "answer": "By solving a system of equations."
+                    "subtopic": "Geometric Multiplicity",
+                    "question": "How is geometric multiplicity defined?",
+                    "answer": "Dimension of the eigenspace."
                 },
                 {
-                    "subtopic": "Comparison",
-                    "question": "How does a Mixed Strategy Nash Equilibrium differ from a Pure Strategy Nash Equilibrium?",
-                    "answer": "Involves randomization."
+                    "subtopic": "Complex Eigenvalues",
+                    "question": "When do eigenvalues appear complex?",
+                    "answer": "Non-Hermitian matrices."
                 },
                 {
-                    "subtopic": "Significance",
-                    "question": "Why is Mixed Strategy Nash Equilibrium important in game theory?",
-                    "answer": "It models unpredictable behavior."
+                    "subtopic": "Defective Matrix",
+                    "question": "What characterizes a defective matrix?",
+                    "answer": "Insufficient eigenvectors."
                 },
                 {
-                    "subtopic": "Existence",
-                    "question": "Do all finite games have a Mixed Strategy Nash Equilibrium?",
-                    "answer": "Yes, according to Nash's theorem."
+                    "subtopic": "Diagonalizable",
+                    "question": "Under what conditions is a matrix diagonalizable?",
+                    "answer": "Full set of linearly independent eigenvectors."
                 },
                 {
-                    "subtopic": "Strategies",
-                    "question": "What determines the probabilities in a Mixed Strategy?",
-                    "answer": "Payoff structure."
+                    "subtopic": "Symmetric Matrices",
+                    "question": "What is true about eigenvalues of symmetric matrices?",
+                    "answer": "Always real."
                 },
                 {
-                    "subtopic": "Equilibrium Concept",
-                    "question": "What is needed for a Mixed Strategy to be in equilibrium?",
-                    "answer": "No player can gain by unilaterally changing strategies."
+                    "subtopic": "Jordan Form",
+                    "question": "What is the Jordan form used for?",
+                    "answer": "Decomposing a matrix with defective eigenvalues."
                 },
                 {
-                    "subtopic": "Historical Background",
-                    "question": "Who introduced the concept of Mixed Strategy Nash Equilibrium?",
-                    "answer": "John Nash."
+                    "subtopic": "Stability Analysis",
+                    "question": "How are eigenvalues related to system stability?",
+                    "answer": "Real parts determine stability."
                 },
                 {
-                    "subtopic": "Illustration",
-                    "question": "Which graphical representation is often used to show Mixed Strategies?",
-                    "answer": "Bimatrix games."
+                    "subtopic": "Perron-Frobenius Theorem",
+                    "question": "What does the Perron-Frobenius theorem state about non-negative matrices?",
+                    "answer": "Largest eigenvalue is positive."
                 },
                 {
-                    "subtopic": "Game Theory",
-                    "question": "In terms of game theory, what does 'indifference' refer to?",
-                    "answer": "Equal expected utility."
+                    "subtopic": "Rayleigh Quotient",
+                    "question": "What does the Rayleigh quotient help to estimate?",
+                    "answer": "Eigenvalues of a matrix."
                 },
                 {
-                    "subtopic": "Psychology",
-                    "question": "What psychological factor might influence Mixed Strategy choices?",
-                    "answer": "Player unpredictability."
+                    "subtopic": "Eigenvalue Problems",
+                    "question": "What type of equations are typically solved in eigenvalue problems?",
+                    "answer": "Differential equations."
                 },
                 {
-                    "subtopic": "Algorithm",
-                    "question": "What algorithm is often used to compute Mixed Strategy equilibria?",
-                    "answer": "Simplex method."
+                    "subtopic": "Applications",
+                    "question": "Where are eigenvalue problems often applied?",
+                    "answer": "Vibration analysis."
                 },
                 {
-                    "subtopic": "Real-World Example",
-                    "question": "Name a real-world scenario that reflects Mixed Strategy Nash Equilibrium.",
-                    "answer": "Sports tactics."
+                    "subtopic": "Spectral Theorem",
+                    "question": "What does the spectral theorem relate to?",
+                    "answer": "Diagonalizability of symmetric matrices."
                 },
                 {
-                    "subtopic": "Influence",
-                    "question": "What impact does risk aversion have on Mixed Strategy choices?",
-                    "answer": "Can alter probability distributions."
+                    "subtopic": "Computational Methods",
+                    "question": "Which method is often used for finding eigenvalues?",
+                    "answer": "Power iteration."
                 },
                 {
-                    "subtopic": "Teaching",
-                    "question": "What is the best way to teach Mixed Strategy Nash Equilibrium?",
-                    "answer": "Through simulations."
+                    "subtopic": "Sensitivity",
+                    "question": "What is eigenvalue sensitivity?",
+                    "answer": "Change in eigenvalues due to perturbations."
                 },
                 {
-                    "subtopic": "Findability",
-                    "question": "How can Mixed Strategy Nash Equilibrium be identified in a game?",
-                    "answer": "By examining strategy profiles."
+                    "subtopic": "Orthogonality",
+                    "question": "What is orthogonality in the context of eigenvectors?",
+                    "answer": "Perpendicularity in inner product space."
                 }
             ]
         },
-        "progress_revision_topic": "Dominated Strategies and Their Applications",
+        "progress_revision_topic": "Eigenvalues and Eigenvectors Fundamentals",
         "revision_quiz": {
-            "topic": "Dominated Strategies and Their Applications",
+            "topic": "Eigenvalues and Eigenvectors Fundamentals",
             "difficulty": "Medium",
             "quiz_questions": [
                 {
-                    "subtopic": "Game Theory Basics",
-                    "question": "In a game with two players where each player has the option of playing either strategy A or B, if player 1's payoff is always higher with strategy A regardless of player 2's choice, what is true about player 2\u2019s strategies?",
-                    "option_A": "Strategy A is dominated by strategy B for player 2.",
-                    "option_B": "Strategy B is dominated by strategy A for player 2.",
-                    "option_C": "Player 2 has no dominated strategies in this scenario.",
-                    "option_D": "Player 2 should always choose strategy A.",
+                    "subtopic": "Definition of Eigenvalues",
+                    "question": "What mathematically defines an eigenvalue for a square matrix A?",
+                    "option_A": "An eigenvalue is a scalar that results from matrix multiplication only.",
+                    "option_B": "An eigenvalue satisfies the equation Ax = \u03bbx for some vector x.",
+                    "option_C": "An eigenvalue is the sum of the eigenvectors of a matrix.",
+                    "option_D": "An eigenvalue is the determinant of a matrix A raised to a power.",
                     "answer": "B",
-                    "explanation": "Since player 1 prefers strategy A regardless of player 2's action, player 2 should also choose strategy B if it yields a better payoff, making B dominated by A if A is consistently better for player 1. Therefore, B is dominated by A for player 2."
+                    "explanation": "An eigenvalue \u03bb is defined by the equation Ax = \u03bbx, where A is a square matrix and x is a non-zero vector (eigenvector). Options A, C, and D represent misconceptions regarding the nature of eigenvalues."
                 },
                 {
-                    "subtopic": "Game Analysis",
-                    "question": "In a two-player game, player 1 can choose strategies X or Y and player 2 can choose Z or W. If choosing X guarantees better outcomes than Y regardless of what player 2 chooses, what can we say about strategies Y and W in relation to player 1\u2019s strategy?",
-                    "option_A": "Y is a dominated strategy for player 1.",
-                    "option_B": "W is a dominated strategy regardless of player 1\u2019s choice.",
-                    "option_C": "Player 1 should randomize between X and Y.",
-                    "option_D": "W is an optimal response to player 1\u2019s choice of X.",
+                    "subtopic": "Relation to Determinants",
+                    "question": "How is the characteristic polynomial of a matrix related to its eigenvalues?",
+                    "option_A": "It is equal to the eigenvalues multiplied together.",
+                    "option_B": "It is obtained by subtracting the eigenvalues from the identity matrix's determinant.",
+                    "option_C": "The roots of the characteristic polynomial are the eigenvalues of the matrix.",
+                    "option_D": "The characteristic polynomial is unrelated to eigenvalues or eigenvectors.",
+                    "answer": "C",
+                    "explanation": "The characteristic polynomial is obtained from the determinant of (A - \u03bbI) = 0, where the roots of this equation (values of \u03bb) are the eigenvalues. Options A and B are incorrect interpretations, and option D is false."
+                },
+                {
+                    "subtopic": "Eigenvector Properties",
+                    "question": "Which of the following statements is true regarding eigenvectors of a matrix?",
+                    "option_A": "Eigenvectors corresponding to distinct eigenvalues are linearly independent.",
+                    "option_B": "All eigenvectors of a matrix are orthogonal to each other regardless of the eigenvalues.",
+                    "option_C": "Eigenvectors can be scalar multiples of each other and still remain valid.",
+                    "option_D": "Eigenvectors must always have a magnitude of one.",
                     "answer": "A",
-                    "explanation": "If choosing X guarantees better outcomes than Y no matter what player 2 does, then Y is clearly a dominated strategy for player 1, meaning player 1 should always prefer X."
+                    "explanation": "Eigenvectors corresponding to distinct eigenvalues are indeed linearly independent. While C is correct (they can be multiples) and D signifies a specific normalization, B is misleading since eigenvectors are not guaranteed to be orthogonal unless specified conditions (like symmetric matrices) are met."
                 },
                 {
-                    "subtopic": "Strategic Interaction",
-                    "question": "In a continuous game, if a player realizes that their current strategy is dominated by another strategy, what should their next step be?",
-                    "option_A": "Continue using their current strategy until the end.",
-                    "option_B": "Switch immediately to the dominated strategy.",
-                    "option_C": "Analyze the benefits of the dominated strategy.",
-                    "option_D": "Switch to the undominated strategy for better outcomes.",
-                    "answer": "D",
-                    "explanation": "When a player identifies a dominated strategy, they should unequivocally switch to an undominated strategy, as it will provide better outcomes in response to their opponent's actions."
+                    "subtopic": "Finding Eigenvalues",
+                    "question": "To find the eigenvalues of a 2x2 matrix, one typically needs to calculate:",
+                    "option_A": "The product of the matrix and its transpose.",
+                    "option_B": "The determinant of the matrix added to the trace.",
+                    "option_C": "The determinant of (A - \u03bbI) and solve for \u03bb.",
+                    "option_D": "The inverse of the matrix.",
+                    "answer": "C",
+                    "explanation": "The eigenvalues are found by solving the characteristic polynomial, which is derived from the determinant of (A - \u03bbI) = 0. Options A, B, and D do not correctly describe the procedure for calculating eigenvalues."
                 },
                 {
-                    "subtopic": "Best Response Dynamics",
-                    "question": "If player A\u2019s strategy is dominated by strategy B when confronted with player B\u2019s actions, what can we conclude about player A\u2019s choices?",
-                    "option_A": "Player A must always play strategy B.",
-                    "option_B": "Player A has an optimal strategy in playing dominated strategy.",
-                    "option_C": "Player A should only focus on responses to player B\u2019s actions using strategy A.",
-                    "option_D": "Player A should eliminate strategy A from their choices entirely.",
-                    "answer": "D",
-                    "explanation": "When a strategy is dominated, the player should discard it from their strategic considerations, as it will never yield better outcomes than the dominated strategy."
-                },
-                {
-                    "subtopic": "Equilibrium Concepts",
-                    "question": "In a Nash equilibrium, what characteristic distinguishes dominated strategies?",
-                    "option_A": "At least one player must choose a dominated strategy.",
-                    "option_B": "No player should play a dominated strategy.",
-                    "option_C": "Every player must play a dominated strategy.",
-                    "option_D": "The strategies do not have to be stable nor optimal.",
+                    "subtopic": "Eigenvalue Multiplicity",
+                    "question": "What does the term 'algebraic multiplicity' of an eigenvalue refer to?",
+                    "option_A": "The number of linearly independent eigenvectors associated with an eigenvalue.",
+                    "option_B": "The number of times the eigenvalue appears as a root in the characteristic polynomial.",
+                    "option_C": "The highest power of an eigenvalue in the matrix's diagonalization.",
+                    "option_D": "The number of eigenvalues that are equal to each other.",
                     "answer": "B",
-                    "explanation": "In a Nash equilibrium, rational players will not choose dominated strategies because doing so would lead to inferior outcomes, as optimal strategies should be favored instead."
+                    "explanation": "Algebraic multiplicity refers to the number of times an eigenvalue appears as a root in the characteristic polynomial. Option A describes geometric multiplicity, while C and D are irrelevant or incorrect."
                 },
                 {
-                    "subtopic": "Payoff Matrix Understanding",
-                    "question": "Given a payoff matrix, where strategy A consistently yields higher payoffs for player 1 regardless of player 2's strategy, what is the conclusion for player 2?",
-                    "option_A": "Player 2 is required to use strategy A.",
-                    "option_B": "Player 2\u2019s strategy choice does not impact player 1's choice.",
-                    "option_C": "Player 2 should choose a dominated strategy to confuse player 1.",
-                    "option_D": "Player 2 should avoid dominated strategies to optimize their own payoffs.",
+                    "subtopic": "Diagonalization Criteria",
+                    "question": "Which condition must a matrix satisfy to be diagonalizable?",
+                    "option_A": "It must have at least two distinct eigenvalues.",
+                    "option_B": "It must have linearly independent eigenvectors for each eigenvalue.",
+                    "option_C": "It must be a symmetric matrix.",
+                    "option_D": "It must have all eigenvalues equal to one.",
+                    "answer": "B",
+                    "explanation": "A matrix is diagonalizable if there exists a complete set of linearly independent eigenvectors. While A may often lead to diagonalizability, it is not sufficient alone. C is a property of special types of matrices, and D is largely irrelevant."
+                },
+                {
+                    "subtopic": "Application of Eigenvectors",
+                    "question": "How are eigenvectors used in Principal Component Analysis (PCA)?",
+                    "option_A": "They determine the average value of the data set.",
+                    "option_B": "They represent directions of maximum variance in the data.",
+                    "option_C": "They classify the data into distinct categories.",
+                    "option_D": "They create a redundant representation of the data variables.",
+                    "answer": "B",
+                    "explanation": "In PCA, eigenvectors define the directions of maximum variance, which helps in dimensionality reduction. A is incorrect as PCA focuses on variance, C is about classification techniques, and D is contrary to PCA's purpose."
+                },
+                {
+                    "subtopic": "Eigenvalue and Matrix Type",
+                    "question": "Which type of matrix always has real eigenvalues?",
+                    "option_A": "Any square matrix.",
+                    "option_B": "Symmetric matrices.",
+                    "option_C": "Skew-symmetric matrices.",
+                    "option_D": "Diagonal matrices with complex entries.",
+                    "answer": "B",
+                    "explanation": "Symmetric matrices always have real eigenvalues. Option A is incorrect since not all matrices have real eigenvalues, C's eigenvalues can be imaginary, and D is also incorrect."
+                },
+                {
+                    "subtopic": "Relationship of Eigenvalues to Matrix Operations",
+                    "question": "What can be said about the eigenvalues of the product of two matrices?",
+                    "option_A": "The eigenvalues are always the product of the matrices' eigenvalues.",
+                    "option_B": "The eigenvalues of the product are independent of the eigenvalues of the individual matrices.",
+                    "option_C": "Eigenvalues of the product can vary and do not have a simple relationship with individual eigenvalues.",
+                    "option_D": "The eigenvalues of the product can be computed directly only if matrices commute.",
                     "answer": "D",
-                    "explanation": "Player 2 must avoid dominated strategies to ensure they are optimizing their own payoffs since player 1's choice of A consistently benefits them regardless of player 2's response."
+                    "explanation": "The eigenvalues of the product of two matrices depend on whether the matrices commute. If they do, there's a simpler relationship; otherwise, there's no direct correlation. A and B are misleading, while C is somewhat correct but vague."
                 },
                 {
-                    "subtopic": "Application of Dominated Strategies",
-                    "question": "In a mixed strategy scenario, how do dominated strategies influence a player's mixed strategy decision-making?",
-                    "option_A": "Players will include dominated strategies to balance their options.",
-                    "option_B": "Dominated strategies are never included in optimal mixed strategies.",
-                    "option_C": "Including a dominated strategy can confuse opponents effectively.",
-                    "option_D": "Dominated strategies provide a safety measure in outcome determination.",
-                    "answer": "B",
-                    "explanation": "Dominated strategies are typically excluded from mixed strategies since they do not contribute positively to a player\u2019s expected payoff, thereby allowing for a more rational and beneficial choice."
-                },
-                {
-                    "subtopic": "Comparison of Strategies",
-                    "question": "If player A has strategies X and Y, and player B has strategies Z and W, what would signify that Y is a dominated strategy for player A?",
-                    "option_A": "Y must yield equal or worse payoffs than X regardless of B's choice.",
-                    "option_B": "Y must yield higher payoffs than X against strategy W.",
-                    "option_C": "Y must yield better payoffs than Z when compared against X.",
-                    "option_D": "Y is the only remaining strategy after eliminating dominated ones.",
-                    "answer": "A",
-                    "explanation": "A strategy is considered dominated if it yields equal or worse payoffs than another strategy regardless of the other player's actions. Thus, if Y consistently underperforms against X, it is dominated."
-                },
-                {
-                    "subtopic": "Strategic Decision Making",
-                    "question": "When analyzing a game with multiple strategies, under what condition can a strategy be discarded as dominated?",
-                    "option_A": "If it offers equal payoffs to another strategy regardless of the opponent\u2019s choice.",
-                    "option_B": "If it is never the best response to any of the opponent\u2019s strategies.",
-                    "option_C": "If opponents always counter it profitably.",
-                    "option_D": "If it offers higher payoffs sometimes based on randomness.",
-                    "answer": "B",
-                    "explanation": "A strategy can be discarded as dominated if it is never a best response to any of the strategies employed by opponents, marking it as inferior in the given game context."
-                },
-                {
-                    "subtopic": "Behavioral Strategy Application",
-                    "question": "In a strategic game where one player frequently chooses a dominated strategy, what psychological effects might this have on their opponent?",
-                    "option_A": "The opponent will always exploit this behavior.",
-                    "option_B": "The opponent may reconsider their own strategies on uncertainty.",
-                    "option_C": "The opponent's choices will be less impacted by dominated strategies.",
-                    "option_D": "The opponent may start mimicking the dominated strategy for unpredictability.",
-                    "answer": "A",
-                    "explanation": "Frequent engagement in a dominated strategy offers the opponent a clear exploitable advantage, leading them to believe they can consistently 'win' against a player using inferior choices."
+                    "subtopic": "Complex Eigenvalues",
+                    "question": "When do complex eigenvalues occur in matrices?",
+                    "option_A": "If the matrix is symmetric.",
+                    "option_B": "If the matrix is not diagonalizable.",
+                    "option_C": "When the characteristic polynomial has no real roots.",
+                    "option_D": "Only in skew-symmetric matrices.",
+                    "answer": "C",
+                    "explanation": "Complex eigenvalues occur when the characteristic polynomial has no real roots. A is incorrect since symmetric matrices always have real eigenvalues, and B and D are misinterpretations of conditions related to eigenvalues."
                 }
             ]
         }
     },
     "day_6": {
-        "subtopic": "Advanced Applications of Game Theory",
-        "subtopic_description": "Explore advanced applications such as auctions, bargaining, and evolutionary game theory, reinforcing core concepts through case studies.",
+        "subtopic": "Applications of Eigenvalues and Eigenvectors",
+        "subtopic_description": "Investigate practical applications in differential equations and data analysis, reinforcing understanding of previous concepts.",
         "flashcard_deck": {
-            "topic": "Advanced Applications of Game Theory",
+            "topic": "Applications of Eigenvalues and Eigenvectors",
             "flashcard_pairs": [
                 {
-                    "subtopic": "Nash Equilibrium",
-                    "question": "What defines a Nash Equilibrium?",
-                    "answer": "No player can benefit by changing their strategy unilaterally."
+                    "subtopic": "Mechanical Vibrations",
+                    "question": "What do eigenvalues represent in mechanical vibrations?",
+                    "answer": "Natural frequencies"
                 },
                 {
-                    "subtopic": "Stackelberg Competition",
-                    "question": "What is a key characteristic of Stackelberg competition?",
-                    "answer": "One leader firm sets quantity before follower firms."
+                    "subtopic": "Stability Analysis",
+                    "question": "In stability analysis, what do eigenvalues indicate?",
+                    "answer": "System stability"
                 },
                 {
-                    "subtopic": "Auction Theory",
-                    "question": "What is a common auction type that encourages bidders to reveal true values?",
-                    "answer": "Vickrey Auction."
+                    "subtopic": "Principal Component Analysis",
+                    "question": "What do eigenvalues represent in PCA?",
+                    "answer": "Variances of components"
                 },
                 {
-                    "subtopic": "Cooperative Game Theory",
-                    "question": "What is the main focus of cooperative game theory?",
-                    "answer": "Formation of coalitions."
+                    "subtopic": "Markov Chains",
+                    "question": "What do the dominant eigenvalue and eigenvector represent in Markov chains?",
+                    "answer": "Steady-state distribution"
                 },
                 {
-                    "subtopic": "Incomplete Information Games",
-                    "question": "What term describes players not knowing types of other players?",
-                    "answer": "Private information."
+                    "subtopic": "Facial Recognition",
+                    "question": "How are eigenvalues used in facial recognition technologies?",
+                    "answer": "Eigenfaces"
                 },
                 {
-                    "subtopic": "Repeated Games",
-                    "question": "What is a significant outcome of repeated games?",
-                    "answer": "Potential for cooperation."
+                    "subtopic": "Quantum Mechanics",
+                    "question": "What do eigenvalues represent in quantum mechanics?",
+                    "answer": "Observable measurements"
                 },
                 {
-                    "subtopic": "Bayesian Games",
-                    "question": "What is a defining feature of Bayesian games?",
-                    "answer": "Players have beliefs about types of other players."
+                    "subtopic": "Population Dynamics",
+                    "question": "What can eigenvalues indicate in population dynamics models?",
+                    "answer": "Growth rates"
                 },
                 {
-                    "subtopic": "Zero-Sum Games",
-                    "question": "In zero-sum games, what is the sum of payoffs?",
-                    "answer": "Zero."
+                    "subtopic": "Graph Theory",
+                    "question": "What do the eigenvalues of a graph's adjacency matrix represent?",
+                    "answer": "Graph properties"
                 },
                 {
-                    "subtopic": "Evolutionary Game Theory",
-                    "question": "What does evolutionary game theory study?",
-                    "answer": "Strategies in biological contexts."
+                    "subtopic": "Control Systems",
+                    "question": "What do eigenvalues determine in control systems?",
+                    "answer": "System behavior"
                 },
                 {
-                    "subtopic": "Threats and Promises",
-                    "question": "What do credible threats help achieve in strategic settings?",
-                    "answer": "Bargaining power."
+                    "subtopic": "Data Compression",
+                    "question": "In data compression, how are eigenvalues utilized?",
+                    "answer": "Signal energy retention"
                 },
                 {
-                    "subtopic": "Signaling Games",
-                    "question": "What is the purpose of signaling in game theory?",
-                    "answer": "To convey private information."
+                    "subtopic": "Electrical Circuits",
+                    "question": "What does the eigenvalue signify in electrical circuits analysis?",
+                    "answer": "Impedance characteristics"
                 },
                 {
-                    "subtopic": "Mechanism Design",
-                    "question": "What is the primary goal of mechanism design?",
-                    "answer": "Incentivizing truthful behavior."
+                    "subtopic": "Image Processing",
+                    "question": "What do eigenvalues determine in image processing techniques?",
+                    "answer": "Feature importance"
                 },
                 {
-                    "subtopic": "Correlated Equilibrium",
-                    "question": "What distinguishes correlated equilibrium from Nash equilibrium?",
-                    "answer": "Players coordinate strategies based on signals."
+                    "subtopic": "Vibration Modes",
+                    "question": "In mechanical systems, what do eigenvectors represent?",
+                    "answer": "Vibration modes"
                 },
                 {
-                    "subtopic": "Coalition Formation",
-                    "question": "What is crucial for effective coalition formation?",
-                    "answer": "Shared interests."
+                    "subtopic": "Stress Analysis",
+                    "question": "What do eigenvalues signify in stress analysis of materials?",
+                    "answer": "Principal stresses"
                 },
                 {
-                    "subtopic": "Information Asymmetry",
-                    "question": "What is the impact of information asymmetry on markets?",
-                    "answer": "Market failure."
+                    "subtopic": "Economics",
+                    "question": "How are eigenvalues used to analyze economic models?",
+                    "answer": "Economic stability"
                 },
                 {
-                    "subtopic": "Public Goods Game",
-                    "question": "What main challenge arises in public goods games?",
-                    "answer": "Free-rider problem."
+                    "subtopic": "Machine Learning",
+                    "question": "What role do eigenvalues play in machine learning algorithms?",
+                    "answer": "Feature selection"
                 },
                 {
-                    "subtopic": "Non-cooperative Bargaining",
-                    "question": "What is a primary focus in non-cooperative bargaining?",
-                    "answer": "Individual strategy."
+                    "subtopic": "Network Analysis",
+                    "question": "In network analysis, what do eigenvalues help identify?",
+                    "answer": "Central nodes"
                 },
                 {
-                    "subtopic": "Game Trees",
-                    "question": "What do game trees represent in game theory?",
-                    "answer": "Sequential decision-making."
+                    "subtopic": "Structural Dynamics",
+                    "question": "What is indicated by the eigenvalue in structural dynamics?",
+                    "answer": "Dynamic response"
                 },
                 {
-                    "subtopic": "Backward Induction",
-                    "question": "What is the backward induction method used for?",
-                    "answer": "Finding subgame perfect equilibria."
+                    "subtopic": "Differential Equations",
+                    "question": "What do eigenvalues relate to in differential equations?",
+                    "answer": "Solution behavior"
                 },
                 {
-                    "subtopic": "Genetic Algorithms",
-                    "question": "How are genetic algorithms related to game theory?",
-                    "answer": "They simulate evolution of strategies."
+                    "subtopic": "Statistical Mechanics",
+                    "question": "How are eigenvalues applied in statistical mechanics?",
+                    "answer": "Energy levels"
                 }
             ]
         },
-        "progress_revision_topic": "Mixed Strategy Nash Equilibrium",
+        "progress_revision_topic": "Advanced Eigenvalue Problems",
         "revision_quiz": {
-            "topic": "Mixed Strategy Nash Equilibrium",
+            "topic": "Advanced Eigenvalue Problems",
             "difficulty": "Hard",
             "quiz_questions": [
                 {
-                    "subtopic": "Definition and Basic Understanding",
-                    "question": "What is a mixed strategy Nash equilibrium in game theory?",
-                    "option_A": "A situation where players randomize over strategies to prevent predictability",
-                    "option_B": "A scenario where players choose strictly dominant strategies",
-                    "option_C": "A case where players communicate before the game begins",
-                    "option_D": "A condition in which all players adopt the same strategy always",
+                    "subtopic": "Characteristic Polynomial",
+                    "question": "Consider the matrix A = [[2, -1], [1, 0]]. What is the characteristic polynomial of A?",
+                    "option_A": "\u03bb^2 - 2\u03bb - 1",
+                    "option_B": "\u03bb^2 - 2\u03bb + 1",
+                    "option_C": "\u03bb^2 + \u03bb - 1",
+                    "option_D": "\u03bb^2 + \u03bb + 1",
                     "answer": "A",
-                    "explanation": "A mixed strategy Nash equilibrium occurs when players randomize across available strategies to keep opponents uncertain, thus making their strategy unpredictable. Option B refers to pure strategies, option C involves communication which is not allowed in Nash equilibria, and option D incorrectly implies uniformity in strategy among players."
+                    "explanation": "The characteristic polynomial of a matrix A is given by det(A - \u03bbI), where I is the identity matrix. For A = [[2, -1], [1, 0]], we calculate det([[2-\u03bb, -1], [1, 0-\u03bb]]) = (2-\u03bb)(-\u03bb) - (-1)(1) = \u03bb^2 - 2\u03bb - 1. Options B, C, and D are incorrect by having the wrong signs or constant terms."
                 },
                 {
-                    "subtopic": "Existence of Mixed Strategy Equilibrium",
-                    "question": "In which type of games is a mixed strategy Nash equilibrium guaranteed to exist?",
-                    "option_A": "Only in zero-sum games",
-                    "option_B": "In games with more than two players",
-                    "option_C": "In games with at least two players and finite strategy spaces",
-                    "option_D": "In any game regardless of structure",
-                    "answer": "C",
-                    "explanation": "Mixed strategy Nash equilibria are guaranteed in finite games, which involve at least two players and finite strategies. Option A is incorrect as mixed equilibria can exist in more than just zero-sum games, while B and D lack the specifics required."
-                },
-                {
-                    "subtopic": "Finding Mixed Strategy Equilibria",
-                    "question": "What is the first step to finding a mixed strategy Nash equilibrium in a 2x2 game?",
-                    "option_A": "Identify the dominated strategies",
-                    "option_B": "Set up the expected payoff equal equations",
-                    "option_C": "Assign probabilities to the strategies of Player 1 only",
-                    "option_D": "Calculate the pure strategy Nash equilibria first",
+                    "subtopic": "Eigenvalue Multiplicity",
+                    "question": "For the matrix B = [[1, 1], [0, 1]], what is the algebraic multiplicity of its only eigenvalue?",
+                    "option_A": "1",
+                    "option_B": "2",
+                    "option_C": "0",
+                    "option_D": "Infinite",
                     "answer": "B",
-                    "explanation": "The first step in finding a mixed strategy Nash equilibrium typically involves setting up equations based on the expected payoffs of each player when they randomize their strategies. Option A may simplify the game but is not the first step, while C only accounts for one player's strategies, and D does not directly lead to a mixed strategy."
+                    "explanation": "The matrix B has a characteristic polynomial that simplifies to (\u03bb - 1)^2, indicating a double root. Hence, the algebraic multiplicity of the eigenvalue 1 is 2. Options A (incorrect, it\u2019s not a simple eigenvalue), C (algebraic multiplicity cannot be zero for existent eigenvalues), and D (there are no infinite multiplicities)."
                 },
                 {
-                    "subtopic": "Applications of Mixed Strategy Nash Equilibrium",
-                    "question": "In which scenario is a mixed strategy Nash equilibrium most likely to be relevant?",
-                    "option_A": "When players have a high degree of collusion",
-                    "option_B": "When the outcome is predetermined and players have no choice",
-                    "option_C": "In competitive markets with symmetric information",
-                    "option_D": "In sports where teams randomly mix tactics to confuse opponents",
-                    "answer": "D",
-                    "explanation": "Mixed strategy Nash equilibria are particularly relevant in scenarios like sports where unpredictability in tactics can give a competitive edge, as teams aim to prevent the opponent from easily countering. Option A suggests cooperation which leads to pure strategies, B describes a lack of strategy, and C points to competition without randomness."
-                },
-                {
-                    "subtopic": "Examples and Illustrations",
-                    "question": "Consider a scenario where two players must choose between strategies A and B, with different payoffs based on their choices. If player 1\u2019s best response to player 2 playing A is to play A with probability p, what must hold true for equilibrium?",
-                    "option_A": "p must equal C for some constant C",
-                    "option_B": "p must equal 0.75",
-                    "option_C": "Expected payoffs from both strategies must be equal at equilibrium",
-                    "option_D": "The sum of probabilities must equal 1",
-                    "answer": "C",
-                    "explanation": "In a mixed strategy Nash equilibrium, the expected payoffs for choosing each strategy must be equal to ensure indifference; thus, player 1 should randomize appropriately. Option A is vague, B is a specific probability that may not apply, and D is actually always true but not specific to equilibrium."
-                },
-                {
-                    "subtopic": "Equilibrium Payoff Calculations",
-                    "question": "Which of the following must be true about player payoffs in a mixed strategy Nash equilibrium?",
-                    "option_A": "All players have equal payoffs",
-                    "option_B": "Players cannot benefit from deviating unilaterally from their mixed strategy",
-                    "option_C": "The sum of player payoffs must be zero",
-                    "option_D": "Players must have at least one dominant strategy",
+                    "subtopic": "Diagonalization",
+                    "question": "Which condition must hold for a matrix to be diagonalizable?",
+                    "option_A": "It must have real entries only.",
+                    "option_B": "All eigenvalues must be distinct.",
+                    "option_C": "The determinant must be positive.",
+                    "option_D": "It must have complex eigenvalues.",
                     "answer": "B",
-                    "explanation": "In a mixed strategy Nash equilibrium, players receive payoffs such that no player benefits from unilaterally changing their strategy, which is the essence of Nash's idea. Options A and C are not generally true, and D is not a requirement for mixed strategy equilibria."
+                    "explanation": "A matrix is diagonalizable if it has enough linearly independent eigenvectors to form a basis, which effectively necessitates that all eigenvalues are distinct. While real entries (A) and complex eigenvalues (D) don't determine diagonalizability, a positive determinant (C) does not imply diagonalization conditions either."
                 },
                 {
-                    "subtopic": "Counterexamples in Mixed Strategy Equilibrium",
-                    "question": "Which of the following situations cannot have a mixed strategy Nash equilibrium?",
-                    "option_A": "A game with a unique pure strategy Nash equilibrium",
-                    "option_B": "A game that has multiple pure strategy Nash equilibria",
-                    "option_C": "A game which is strictly dominated",
-                    "option_D": "A game with infinite strategies",
-                    "answer": "C",
-                    "explanation": "If a game has a strictly dominated strategy, it will never be played and thus does not support a mixed strategy Nash equilibrium. A case with a unique pure strategy might exist but does not rule out mixed equilibria, while D could potentially support mixed strategies."
-                },
-                {
-                    "subtopic": "Historical Development",
-                    "question": "Who is credited with the foundational work on mixed strategies within game theory?",
-                    "option_A": "Nash",
-                    "option_B": "Von Neumann",
-                    "option_C": "Sartre",
-                    "option_D": "Turing",
+                    "subtopic": "Eigenvalue Realization",
+                    "question": "Matrix C = [[0, -1], [1, 0]] has eigenvalues. What are they?",
+                    "option_A": "\u00b1i",
+                    "option_B": "0",
+                    "option_C": "1",
+                    "option_D": "\u00b11",
                     "answer": "A",
-                    "explanation": "John Nash is credited with introducing the concept of mixed strategy Nash equilibria, which is a central element in game theory. Von Neumann contributed foundational elements to game theory, but Nash specifically addressed mixed strategies. Sartre and Turing did not focus on game theory."
+                    "explanation": "For the matrix C, the characteristic polynomial is \u03bb^2 + 1 = 0, giving eigenvalues \u00b1i. The options B, C, and D are incorrect interpretations of the zero determinant and mistaken eigenvalue assumption."
                 },
                 {
-                    "subtopic": "Mixed Strategy Best Response Dynamics",
-                    "question": "In a two-player game where each player can mix between strategy A (0.4 probability) and strategy B (0.6 probability), what does this imply about their best responses?",
-                    "option_A": "Both players find A the dominant strategy",
-                    "option_B": "Payoffs from choosing A outweigh those from B",
-                    "option_C": "Each player\u2019s best response is A based on current mixing.",
-                    "option_D": "Players are indifferent between A and B at current probabilities.",
-                    "answer": "D",
-                    "explanation": "If players are mixing strategies, it implies that they are indifferent between their options at the current probabilities, each making their choices to keep their opponent uncertain. Options A and B make incorrect assumptions about dominance or payoffs, and C suggests a singular player focus rather than a mutual indifference."
+                    "subtopic": "Spectral Theorem",
+                    "question": "According to the spectral theorem, which matrices are guaranteed to be diagonalizable?",
+                    "option_A": "Only symmetric matrices.",
+                    "option_B": "Only orthogonal matrices.",
+                    "option_C": "All Hermitian matrices.",
+                    "option_D": "Any square matrix with distinct eigenvalues.",
+                    "answer": "C",
+                    "explanation": "The spectral theorem states that Hermitian (or real symmetric) matrices are guaranteed to be diagonalizable with real eigenvalues. Options A and B are misinterpretations, and D is incomplete as not all matrices with distinct eigenvalues are guaranteed without the specific properties of Hermitian nature."
                 },
                 {
-                    "subtopic": "Strategic Unpredictability",
-                    "question": "How does the concept of strategic unpredictability relate to mixed strategies?",
-                    "option_A": "Players do not care about opponents' choices",
-                    "option_B": "Unpredictability can reduce the potential of opponents' payoffs",
-                    "option_C": "It mainly applies to cooperative strategies.",
-                    "option_D": "All players will have predictable strategies in equilibrium.",
+                    "subtopic": "Defective Matrix",
+                    "question": "What characterizes a defective matrix?",
+                    "option_A": "It has repeated eigenvalues but lacks enough eigenvectors.",
+                    "option_B": "It has complex conjugate eigenvalues only.",
+                    "option_C": "It is not square.",
+                    "option_D": "It has a negative determinant.",
+                    "answer": "A",
+                    "explanation": "A defective matrix cannot be diagonalized due to lacking a complete set of eigenvectors even if it has repeated eigenvalues. Options B and C refer to specific properties, while D speaks to determinant properties that are not related to diagonalizability."
+                },
+                {
+                    "subtopic": "Eigenvalue Stability",
+                    "question": "For the system described by the matrix D = [[0, 1], [-4, -5]], which eigenvalue indicates stability?",
+                    "option_A": "Both eigenvalues are positive.",
+                    "option_B": "Both eigenvalues are negative.",
+                    "option_C": "One eigenvalue is zero.",
+                    "option_D": "Eigenvalues are complex with positive real parts.",
                     "answer": "B",
-                    "explanation": "Strategic unpredictability is crucial in mixed strategies as it aims to confuse opponents and potentially reduce their payoffs by making it hard for them to capitalize on any specific strategy. Option A inaccurately suggests disinterest, C misattributes the concept to cooperation, and D contradicts the fundamental idea of mixed strategies."
+                    "explanation": "The eigenvalues of the matrix D can be found using the characteristic polynomial, and they yield both negative values which indicate stability in dynamic systems. Options A and D are both incorrect assessments of the system\u2019s characteristics."
+                },
+                {
+                    "subtopic": "Jordan Form",
+                    "question": "What is true about the Jordan canonical form of a matrix?",
+                    "option_A": "It always has all its eigenvalues along the main diagonal.",
+                    "option_B": "It can only exist for square matrices.",
+                    "option_C": "It gives a unique representation for any square matrix.",
+                    "option_D": "All Jordan blocks must be of the same size.",
+                    "answer": "B",
+                    "explanation": "The Jordan form can exist only for square matrices, while segments A, C, and D misinterpret uniqueness and structure of blocks. Variations in block sizes can exist too."
+                },
+                {
+                    "subtopic": "Eigenvalue Bounds",
+                    "question": "According to the Gershgorin Circle Theorem, what can be stated about eigenvalues of a matrix?",
+                    "option_A": "Eigenvalues must lie within the largest Gershgorin circle.",
+                    "option_B": "Eigenvalues must be real numbers only.",
+                    "option_C": "Eigenvalues are limited to the diagonal entries.",
+                    "option_D": "Eigenvalues lie outside the circles corresponding to the rows of the matrix.",
+                    "answer": "A",
+                    "explanation": "Gershgorin Circle Theorem clarifies that every eigenvalue of a matrix lies within at least one Gershgorin circle. The other options misstate the foundational property of eigenvalue location."
+                },
+                {
+                    "subtopic": "Perturbation Theory",
+                    "question": "What effect does a small perturbation have on the eigenvalues of a matrix?",
+                    "option_A": "Eigenvalues cannot change.",
+                    "option_B": "Eigenvalue changes are significant and unpredictable.",
+                    "option_C": "Changes in eigenvalue vary in proportion to perturbation size.",
+                    "option_D": "Eigenvalues remain invariant under perturbation.",
+                    "answer": "C",
+                    "explanation": "With perturbation theory, small changes in the matrix (perturbation) lead to small changes in the eigenvalues, implying eigenvalue shifts are in proportion to the perturbation size, while options A and D conflict with fundamental aspects, and B underestimates the predictability of the effect."
                 }
             ]
         }
     },
     "day_7": {
-        "subtopic": "Comprehensive Revision of Game Theory",
-        "subtopic_description": "Systematic review of all previous subtopics, emphasizing interconnections, key principles, and common misconceptions in Game Theory.",
+        "subtopic": "Comprehensive Revision of Linear Algebra",
+        "subtopic_description": "Systematically review vector spaces, linear transformations, eigenvalues, and eigenvectors; practice integrated problems to solidify understanding.",
         "flashcard_deck": {
-            "topic": "Comprehensive Revision of Game Theory",
+            "topic": "Comprehensive Revision of Linear Algebra",
             "flashcard_pairs": [
                 {
-                    "subtopic": "Basic Concepts",
-                    "question": "What is a game in game theory?",
-                    "answer": "A situation involving players making decisions."
+                    "subtopic": "Vectors",
+                    "question": "What is the geometric representation of a vector?",
+                    "answer": "Arrow"
                 },
                 {
-                    "subtopic": "Players",
-                    "question": "Who are considered players in a game?",
-                    "answer": "The decision-makers in a game."
+                    "subtopic": "Matrices",
+                    "question": "What is a square matrix with a value of 1 on the diagonal called?",
+                    "answer": "Identity matrix"
                 },
                 {
-                    "subtopic": "Strategies",
-                    "question": "What is a strategy in game theory?",
-                    "answer": "A complete plan of action for a player."
+                    "subtopic": "Determinants",
+                    "question": "What does a determinant of zero indicate about a matrix?",
+                    "answer": "Singularity"
                 },
                 {
-                    "subtopic": "Payoffs",
-                    "question": "What are payoffs in game theory?",
-                    "answer": "Rewards received from outcomes."
+                    "subtopic": "Linear Independence",
+                    "question": "What condition must vectors satisfy to be linearly independent?",
+                    "answer": "No linear combination equals zero."
                 },
                 {
-                    "subtopic": "Nash Equilibrium",
-                    "question": "What is a Nash Equilibrium?",
-                    "answer": "A situation where no player can gain by unilaterally changing strategy."
+                    "subtopic": "Eigenvalues",
+                    "question": "What are the scalar values associated with a linear transformation's eigenvectors?",
+                    "answer": "Eigenvalues"
                 },
                 {
-                    "subtopic": "Dominant Strategy",
-                    "question": "What is a dominant strategy?",
-                    "answer": "A strategy that is better regardless of opponent's actions."
+                    "subtopic": "Eigenvectors",
+                    "question": "What do eigenvectors represent in a linear transformation?",
+                    "answer": "Direction of stretching."
                 },
                 {
-                    "subtopic": "Zero-Sum Games",
-                    "question": "What characterizes a zero-sum game?",
-                    "answer": "One player's gain is another player's loss."
+                    "subtopic": "Inner Product",
+                    "question": "What defines the angle between two vectors?",
+                    "answer": "Dot product"
                 },
                 {
-                    "subtopic": "Mixed Strategy",
-                    "question": "What is a mixed strategy?",
-                    "answer": "A strategy involving randomization over available strategies."
+                    "subtopic": "Norms",
+                    "question": "What term is used for the length of a vector?",
+                    "answer": "Norm"
                 },
                 {
-                    "subtopic": "Cooperative Games",
-                    "question": "What are cooperative games?",
-                    "answer": "Games where players can form binding commitments."
+                    "subtopic": "Linear Transformations",
+                    "question": "What type of mapping preserves vector addition and scalar multiplication?",
+                    "answer": "Linear transformation"
                 },
                 {
-                    "subtopic": "Non-Cooperative Games",
-                    "question": "What defines non-cooperative games?",
-                    "answer": "Games where binding agreements are not feasible."
+                    "subtopic": "Rank of a Matrix",
+                    "question": "What does the rank of a matrix represent?",
+                    "answer": "Dimension of the column space."
                 },
                 {
-                    "subtopic": "Extensive Form Games",
-                    "question": "What is an extensive form game?",
-                    "answer": "A representation using trees to show moves over time."
+                    "subtopic": "Null Space",
+                    "question": "What is the set of all solutions to the homogeneous equation Ax=0 called?",
+                    "answer": "Null space"
                 },
                 {
-                    "subtopic": "Normal Form Games",
-                    "question": "What is a normal form game?",
-                    "answer": "A representation using a payoff matrix."
+                    "subtopic": "Subspaces",
+                    "question": "What is a subset of a vector space that is also a vector space called?",
+                    "answer": "Subspace"
                 },
                 {
-                    "subtopic": "Subgame Perfect Equilibrium",
-                    "question": "What is subgame perfect equilibrium?",
-                    "answer": "Equilibrium in every subgame."
+                    "subtopic": "Basis",
+                    "question": "What is a set of linearly independent vectors that span a vector space?",
+                    "answer": "Basis"
                 },
                 {
-                    "subtopic": "Backward Induction",
-                    "question": "What is backward induction?",
-                    "answer": "Solving by starting from the end of the game."
+                    "subtopic": "Dimensionality",
+                    "question": "What describes the number of vectors in a basis for a vector space?",
+                    "answer": "Dimension"
                 },
                 {
-                    "subtopic": "Bargaining Theory",
-                    "question": "What does bargaining theory study?",
-                    "answer": "Negotiation between players over resources."
+                    "subtopic": "Orthogonality",
+                    "question": "What describes two vectors that are at right angles to each other?",
+                    "answer": "Orthogonal"
                 },
                 {
-                    "subtopic": "Evolutionary Game Theory",
-                    "question": "What is evolutionary game theory?",
-                    "answer": "Study of strategies in biological contexts."
+                    "subtopic": "Transformation Matrices",
+                    "question": "What type of matrix represents the coefficients of a linear transformation?",
+                    "answer": "Transformation matrix"
                 },
                 {
-                    "subtopic": "Common Knowledge",
-                    "question": "What is common knowledge in game theory?",
-                    "answer": "Information known by all players."
+                    "subtopic": "Singular Value Decomposition",
+                    "question": "What is the factorization of a matrix into three matrices called?",
+                    "answer": "SVD (Singular Value Decomposition)"
                 },
                 {
-                    "subtopic": "Bayesian Games",
-                    "question": "What characterizes Bayesian games?",
-                    "answer": "Games involving incomplete information."
+                    "subtopic": "Row Reduction",
+                    "question": "What is the process of simplifying a matrix using elementary row operations?",
+                    "answer": "Gaussian elimination"
                 },
                 {
-                    "subtopic": "Reputation Effects",
-                    "question": "What are reputation effects?",
-                    "answer": "Impact of past actions on future payoffs."
+                    "subtopic": "Quadratic Forms",
+                    "question": "What is a homogeneous polynomial of degree two called?",
+                    "answer": "Quadratic form"
                 },
                 {
-                    "subtopic": "Key Contributions",
-                    "question": "Who is known as a pioneer of game theory?",
-                    "answer": "John von Neumann."
+                    "subtopic": "Pivots",
+                    "question": "What are the leading coefficients in row-echelon form of a matrix called?",
+                    "answer": "Pivots"
                 }
             ]
         },
-        "progress_revision_topic": "All Topics in Game Theory",
+        "progress_revision_topic": "Overall Linear Algebra Concepts",
         "revision_quiz": {
-            "topic": "All Topics in Game Theory",
+            "topic": "Overall Linear Algebra Concepts",
             "difficulty": "Hard",
             "quiz_questions": [
                 {
-                    "subtopic": "Nash Equilibrium",
-                    "question": "In a game with three players where each player's strategy depends on the other players' strategies, a Nash Equilibrium occurs when:",
-                    "option_A": "Each player chooses their dominant strategy, leading to a Pareto optimal outcome.",
-                    "option_B": "No player can benefit by unilaterally changing their strategy given the other players' strategies.",
-                    "option_C": "Players coordinate their strategies to maximize joint payoffs equally.",
-                    "option_D": "Players can deterministically predict the strategies of their opponents always leading to a win.",
+                    "subtopic": "Vector Spaces",
+                    "question": "Given the set S = { (a, b) | a, b \u2208 \u211d }, is S a vector space? If so, which properties justify this?",
+                    "option_A": "Yes, it is closed under addition and scalar multiplication.",
+                    "option_B": "No, because it does not include the zero vector.",
+                    "option_C": "Yes, because it contains infinite elements.",
+                    "option_D": "No, because it does not satisfy the commutative property.",
+                    "answer": "A",
+                    "explanation": "S is a vector space because it is closed under addition and scalar multiplication. The zero vector (0,0) is included since a=0 and b=0 are real numbers. The commutative property is not a necessary condition for being a vector space, hence option D is incorrect."
+                },
+                {
+                    "subtopic": "Eigenvalues and Eigenvectors",
+                    "question": "Consider the matrix A = [[0, -1], [1, 0]]. What is the eigenvalue of A corresponding to the eigenvector (1, i)?",
+                    "option_A": "-1",
+                    "option_B": "1",
+                    "option_C": "i",
+                    "option_D": "0",
                     "answer": "B",
-                    "explanation": "Option B defines the Nash Equilibrium correctly: players are at a point where no one can improve their payoff by changing strategy alone. Option A is incorrect because dominant strategies don't guarantee a Pareto optimal outcome. Option C describes cooperative games, not Nash Equilibrium. Option D misstates the predictability; players cannot always deterministically predict actions."
+                    "explanation": "For the eigenvector (1, i), by applying the eigenvalue equation A*v = \u03bb*v, we find that the eigenvalue \u03bb = 1. The eigenvector corresponds to a rotation in the complex plane, hence option A, C, and D are incorrect under this context."
                 },
                 {
-                    "subtopic": "Mixed Strategies",
-                    "question": "In a mixed strategy Nash Equilibrium, a player randomizes their choice of strategies. Which of the following statements about mixed strategies is NOT true?",
-                    "option_A": "Every game has at least one mixed strategy Nash Equilibrium.",
-                    "option_B": "Mixed strategies can lead to higher expected payoffs than pure strategies.",
-                    "option_C": "Players will choose their mixed strategies based on opponents' tendencies.",
-                    "option_D": "Mixed strategies are applicable only to zero-sum games.",
-                    "answer": "D",
-                    "explanation": "Option D is false; mixed strategies can apply to various types of games, not just zero-sum. Option A is true for finite games (Nash's theorem). Option B is valid as randomization can yield better outcomes in certain contexts, and Option C is common in strategic reasoning."
-                },
-                {
-                    "subtopic": "Subgame Perfect Equilibrium",
-                    "question": "When analyzing extensive form games, the concept of Subgame Perfect Equilibrium (SPE) ensures:",
-                    "option_A": "Every Nash Equilibrium is a SPE regardless of the game tree structure.",
-                    "option_B": "Strategies are optimal at every subgame, not just at the beginning of the game.",
-                    "option_C": "Players can choose any strategy without affecting future outcomes.",
-                    "option_D": "SPE requires the use of pure strategies only, not mixed strategies.",
+                    "subtopic": "Linear Transformations",
+                    "question": "Identify the transformation represented by the matrix M = [[2, 0], [0, 3]]. What type of transformation is this in \u211d\u00b2?",
+                    "option_A": "Shear transformation",
+                    "option_B": "Scaling transformation",
+                    "option_C": "Reflection transformation",
+                    "option_D": "Rotation transformation",
                     "answer": "B",
-                    "explanation": "Option B is correct; in a SPE, players' strategies are optimal in every subgame. Option A is incorrect as not all Nash Equilibria are SPE. Option C violates the concept of strategizing based on the game\u2019s structure. Option D is false since SPE can involve mixed strategies."
+                    "explanation": "Matrix M scales the x-coordinate by 2 and the y-coordinate by 3, representing a scaling transformation. None of the other options represent what this matrix does."
                 },
                 {
-                    "subtopic": "Prisoner's Dilemma",
-                    "question": "In the classic Prisoner's Dilemma, which of the following statements illustrates the dilemma effectively?",
-                    "option_A": "Cooperation leads to a worse outcome for both players than betrayal.",
-                    "option_B": "Both players are better off if they betray each other rather than cooperate.",
-                    "option_C": "If both players cooperate, they achieve the highest total payoff collectively.",
-                    "option_D": "Defecting leads to higher individual payoffs regardless of the opponent's choice to cooperate or defect.",
+                    "subtopic": "Rank and Nullity",
+                    "question": "For the matrix B = [[1, 2, 3], [0, 0, 0], [4, 5, 6]], calculate the rank and nullity, given that the dimension of the domain is 3.",
+                    "option_A": "Rank 2, Nullity 1",
+                    "option_B": "Rank 1, Nullity 2",
+                    "option_C": "Rank 3, Nullity 0",
+                    "option_D": "Rank 0, Nullity 3",
+                    "answer": "A",
+                    "explanation": "The rank of B is 2 because there are 2 pivot columns, and the nullity is calculated as the dimension of the domain (3) minus the rank, giving nullity = 3 - 2 = 1."
+                },
+                {
+                    "subtopic": "Determinants",
+                    "question": "What is the determinant of the matrix C = [[2, -1, 0], [3, 3, 1], [1, 1, 1]]?",
+                    "option_A": "0",
+                    "option_B": "6",
+                    "option_C": "-6",
+                    "option_D": "3",
                     "answer": "C",
-                    "explanation": "Option C correctly illustrates that cooperation yields a higher total payoff for both players. Option A is misleading as cooperation does not lead to the worst outcome; it is superior to mutual betrayal. Option B is false since mutual cooperation indeed yields better individual outcomes. Option D inaccurately generalizes the outcomes within the dilemma."
+                    "explanation": "The determinant of C can be calculated using cofactor expansion or other techniques, yielding -6. The correct calculation would eliminate options A, B, and D."
                 },
                 {
-                    "subtopic": "Repeated Games",
-                    "question": "In a repeated game context, which scenario can lead to higher cooperative outcomes in the long run?",
-                    "option_A": "Players are allowed to recall previous plays and adjust their strategies accordingly.",
-                    "option_B": "Players keep their strategies secret and cannot communicate with one another.",
-                    "option_C": "Long-term relationships do not influence strategy choices.",
-                    "option_D": "Every player has a singular payoff structure that cannot be altered through repetition.",
-                    "answer": "A",
-                    "explanation": "Option A is correct as allowing players to recall past interactions fosters trust and cooperation. Option B hinders cooperative strategies as communication is essential. Option C contradicts game theory since history affects future strategies. Option D is false as repeated games can significantly alter payoff structures."
-                },
-                {
-                    "subtopic": "Bayesian Games",
-                    "question": "In Bayesian games, players have incomplete information. Which of the following best describes the role of types?",
-                    "option_A": "Types determine players' preferences but not their available strategies.",
-                    "option_B": "Each player's type is fixed and does not vary throughout the game.",
-                    "option_C": "Strategies depend solely on the beliefs about the types of other players.",
-                    "option_D": "Types influence players' beliefs about other players' strategies but are unaffected by past moves.",
-                    "answer": "C",
-                    "explanation": "Option C accurately captures the essence of Bayesian games, where players' strategies rely on their beliefs about others' types. Option A is only partially true; types also affect available strategies. Option B is incorrect; types can reveal varying degrees of information. Option D misconceives the interactivity; past moves can inform players' beliefs."
-                },
-                {
-                    "subtopic": "Evolutionary Game Theory",
-                    "question": "Which principle best describes the concept of 'fitness' in evolutionary game theory?",
-                    "option_A": "Fitness is solely determined by the individual strategy used in each encounter.",
-                    "option_B": "Fitness relates to an individual\u2019s survivability and reproductive success shaped by the population\u2019s strategy mix.",
-                    "option_C": "Fitness is an arbitrary measure that does not affect strategy evolution over time.",
-                    "option_D": "Fitness always favors cooperation over defection regardless of environmental conditions.",
+                    "subtopic": "Orthogonality",
+                    "question": "If vectors a = (1, 2, 3) and b = (2, 4, 6), are they orthogonal? Why or why not?",
+                    "option_A": "Yes, because their dot product equals 0.",
+                    "option_B": "No, because their dot product equals 12.",
+                    "option_C": "Yes, because they are scalar multiples.",
+                    "option_D": "No, because they are in different dimensions.",
                     "answer": "B",
-                    "explanation": "Option B correctly defines fitness in evolutionary game theory as related to reproductive success and strategy mix influence. Option A is too simplistic; strategy interacts with the population's dynamics. Option C is incorrect because fitness is crucial in determining evolutionary stability. Option D misrepresents fitness; under certain conditions, defection can perform better."
+                    "explanation": "The dot product of vectors a and b is 1*2 + 2*4 + 3*6 = 28, which is not zero. Therefore, they are not orthogonal. Option B correctly states their dot product."
                 },
                 {
-                    "subtopic": "Coalition Formation",
-                    "question": "In cooperative game theory, which of the following statements regarding core stability is true?",
-                    "option_A": "The core is empty if no coalition can achieve higher payoffs than the grand coalition.",
-                    "option_B": "The core relies solely on individual rationality without considering group dynamics.",
-                    "option_C": "The core guarantees that at least one coalition will always achieve maximum payoffs in every scenario.",
-                    "option_D": "The presence of a core means all players' payoffs will be increased compared to the non-cooperative scenario.",
+                    "subtopic": "Matrix Inversion",
+                    "question": "Is the matrix D = [[1, 2], [2, 4]] invertible? If not, explain why.",
+                    "option_A": "No, because it has a determinant of 0.",
+                    "option_B": "Yes, but it leads to a non-unique solution.",
+                    "option_C": "Yes, since it is a square matrix.",
+                    "option_D": "No, because it has more rows than columns.",
                     "answer": "A",
-                    "explanation": "Option A correctly asserts that the core can be empty if individuals cannot benefit more than participating in the grand coalition. Option B ignores the essence of cooperative behavior; group dynamics matter significantly. Option C is false; not all coalitions can achieve maximum payoffs. Option D mistakenly generalizes outcomes of cooperative games."
+                    "explanation": "Matrix D has a determinant of 0 (1*4 - 2*2 = 0), making it non-invertible. Options B, C, and D are misleading and incorrect with respect to the determinant-based criterion."
                 },
                 {
-                    "subtopic": "Stackelberg Competition",
-                    "question": "In a Stackelberg competition scenario, which of the following is a distinguishing factor when compared to Cournot competition?",
-                    "option_A": "Firms choose quantities simultaneously without prior knowledge about competitors.",
-                    "option_B": "One firm acts as a leader making its decision first, while followers react to the leader's choice.",
-                    "option_C": "Market outcomes achieve equilibria only through price-setting mechanisms.",
-                    "option_D": "All firms have equal knowledge and decision-making capabilities at every stage of the game.",
-                    "answer": "B",
-                    "explanation": "Option B correctly identifies the leader-follower dynamic in Stackelberg competition, contrasting with Cournot's simultaneous choice. Option A mischaracterizes Stackelberg dynamics, while Option C inaccurately applies pricing concepts, which do not define Stackelberg. Option D falsely assumes equality among firms."
-                },
-                {
-                    "subtopic": "Correlated Equilibrium",
-                    "question": "What is the primary feature that distinguishes correlated equilibrium from traditional Nash equilibrium?",
-                    "option_A": "Players can communicate and agree on a probability distribution to select actions mutually.",
-                    "option_B": "Only one player can dictate the actions of others based on visible signals.",
-                    "option_C": "Players reveal their strategies publicly after the game concludes to each other.",
-                    "option_D": "Correlated equilibria always result in lower payoffs for participants than Nash equilibria.",
+                    "subtopic": "Systems of Linear Equations",
+                    "question": "Which of the following systems of equations has an infinite number of solutions?",
+                    "option_A": "x + y = 2; 2x + 2y = 4",
+                    "option_B": "x + y = 2; 2x + 2y = 3",
+                    "option_C": "x + y = 2; x - y = 1",
+                    "option_D": "x + y = 2; 3x + 3y = 5",
                     "answer": "A",
-                    "explanation": "Option A accurately describes the concept of correlated equilibrium where a mechanism allows players to coordinate their actions based on common signals. Option B misrepresents the nature of correlations; cooperation is mutual within the framework. Option C is incorrect as strategy revelation occurs post-game is not a definition despite communication being integral. Option D contrasts outcomes unjustly, as correlated equilibria can yield equal or higher payoffs."
+                    "explanation": "The two equations in option A are dependent, resulting in an infinite number of solutions. Options B and D represent inconsistent systems, while C represents an independent system with a unique solution."
+                },
+                {
+                    "subtopic": "Subspaces",
+                    "question": "Determine if the set W = { (x, 2x) | x \u2208 \u211d } is a subspace of \u211d\u00b2. If yes, which condition confirms this?",
+                    "option_A": "Yes, it includes the zero vector.",
+                    "option_B": "No, it is not closed under addition.",
+                    "option_C": "Yes, it is closed under scalar multiplication.",
+                    "option_D": "No, it cannot span \u211d\u00b2.",
+                    "answer": "A",
+                    "explanation": "W does include the zero vector (0,0) when x=0. This is one of the criteria for being a subspace, validating option A while B and D are incorrect."
+                },
+                {
+                    "subtopic": "Cholesky Decomposition",
+                    "question": "For which type of matrix is Cholesky decomposition applicable?",
+                    "option_A": "Symmetric positive definite matrices",
+                    "option_B": "Any symmetric matrices",
+                    "option_C": "All square matrices",
+                    "option_D": "Asymmetric matrices only",
+                    "answer": "A",
+                    "explanation": "Cholesky decomposition is specifically applicable to symmetric positive definite matrices. This makes option A correct while the others do not meet the necessary criteria."
                 }
             ]
         }

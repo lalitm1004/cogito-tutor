@@ -84,10 +84,10 @@ class Completions:
             return {}
 
     @staticmethod
-    def return_week_schedule(topic: str) -> Dict:
+    def return_week_schedule(topic: str, desc: str) -> Dict:
         try:
             system_prompt = SystemPrompts.schedule_system_prompt
-            user_prompt = f"Please generate a schedule for the overall subject {topic}."
+            user_prompt = f"Please generate a schedule for the overall subject {topic}. Here is a brief description of the syllabus and the user's strengths and weaknesses: {desc}"
             response_format = ResponseFormats.ScheduleResponseFormat
 
             basic_schedule = CompletionFormat.return_completion(topic = topic, 

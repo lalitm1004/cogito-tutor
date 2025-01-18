@@ -74,10 +74,11 @@ QuizResponseFormat: {
 ```
 ### 3. **Generate Weekly Schedule**
 
--   **Method**: `Completions.return_week_schedule(topic: str) -> Dict`
+-   **Method**: `Completions.return_week_schedule(topic: str, desc: str) -> Dict`
 -   **Description**: generates a weeklong learning schedule, breaking down subtopics for each day
 -   **Parameters**:
     -   `topic`: the overall subject for the weekly schedule to plan out
+	-   `desc`: the user provided description ideally including the syllabus, strong and weak topics
 -   **Example**:
 ```
 week_schedule = Completions.return_week_schedule("Machine Learning")
