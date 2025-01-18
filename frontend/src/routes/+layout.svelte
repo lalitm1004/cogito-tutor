@@ -2,7 +2,7 @@
     import Navbar from '$lib/components/Navbar.svelte';
     import { setDevice } from '$lib/stores/deviceStore';
     import { setTheme, theme, TOKEN_NAME as theme_token } from '$lib/stores/themeStore';
-    import '$lib/styles/tailwind.css';    
+    import '$lib/styles/globals.css';    
     import { getCookie } from '$lib/utils/cookie';
     import { onMount } from 'svelte';
 
