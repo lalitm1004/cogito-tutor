@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Cogito</title>
+    <meta name="description" content="A revolutionary AI-Tutor">
+</svelte:head>
+
 <script lang="ts">
     import Hero from "$lib/components/home/Hero.svelte";
     import { device } from "$lib/stores/deviceStore";
@@ -29,7 +34,7 @@
 
     <section>
         <div class={`h-dvh w-dvw`}>
-            {$device}
+            somethnig and all bro
         </div>
     </section>
 </main>
