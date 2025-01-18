@@ -54,8 +54,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-6 sm:mt-8">
             {#each whyCogitoItems as item}
                 <div class="p-4 sm:p-6 rounded-lg dark:bg-gray-800/40 border-2 dark:border-gray-800 border-neutral-300 space-y-2 sm:space-y-3 transition-all hover:border-green-500/30">
-                    <svelte:component this={item.icon}
-                                      class="h-5 w-5 sm:h-6 sm:w-6 dark:text-green-500/60 text-green-600" />
+                    <svelte:component this={item.icon} class="h-5 w-5 sm:h-6 sm:w-6 dark:text-green-500/60 text-green-600" />
                     <p class="text-base sm:text-lg dark:text-amber-50 text-neutral-900">{item.text}</p>
                 </div>
             {/each}

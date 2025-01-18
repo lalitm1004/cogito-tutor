@@ -1,6 +1,6 @@
 <script lang="ts">
     import Hero from "$lib/components/home/Hero.svelte";
-    import WhyCogito from "$lib/components/whycogito/WhyCogito.svelte";
+    import WhyCogito from "$lib/components/home/WhyCogito.svelte";
 </script>
 
 <main>
