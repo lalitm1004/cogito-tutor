@@ -35,10 +35,10 @@ app.add_middleware(
 # Configuration
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
 GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
-REDIRECT_URI = "http://localhost:8000/callback"
+REDIRECT_URI = os.getenv("REDIRECT_URI")
 JWT_SECRET = os.getenv("JWT_SECRET")
 JWT_ALGORITHM = "HS256"
-FRONTEND_URL = "http://localhost:3000"
+FRONTEND_URL = os.getenv("FRONTEND_URL")
 
 # Database configuration
 SQLALCHEMY_DATABASE_URL = os.getenv("DB_URL")
