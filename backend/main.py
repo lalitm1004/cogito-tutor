@@ -500,6 +500,35 @@ async def get_or_generate_day_content(
             detail=f"Error generating content for day {request.day_number}: {str(e)}"
         )
 
+# Request body model for schedule
+class CourseScheduleRequest(BaseModel):
+    course_id: str
+
+@app.post("/get-schedule")
+async def get_course_schedule(
+    request: CourseScheduleRequest,
+    user_id: str = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    # Get user's courses
+    user_courses = db.query(Courses).filter(Courses.user_id == user_id).all()
+    user_course_ids = [course.id for course in user_courses]
+
+    # Check if the course exists and belongs to the user
+    if request.course_id not in user_course_ids:
+        raise HTTPException(
+            status_code=404,
+            detail="Course not found or not authorized to access this course"
+        )
+
+    # Get the course
+    course = db.query(Courses).filter(Courses.id == request.course_id).first()
+
+    return {
+        "topic": course.topic,
+        "schedule": course.schedule
+    }
+
 
 @app.post("/logout")
 async def logout(
