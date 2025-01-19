@@ -14,6 +14,8 @@ A live deployment can be found at [Cogito](https://cogito-tutor.vercel.app)
 > Light Mode
 ![WhyCogito](./assets/quizzmaxxingrn.png)
  
+# Demo
+[Video](https://drive.google.com/file/d/1TEPuSTvjK2ft4t6UVzbADbXd9PRmvF9c/view?usp=sharing)
 
 # Setup
 ## Backend
