@@ -75,7 +75,7 @@
 
                             <!-- Action Buttons -->
                             <div class="space-y-3 mt-4">
-                                <a href="/flashcards/{$page.params.courseid}/{day}"
+                                <a data-sveltekit-preload-data="off" href="/flashcards/{$page.params.courseid}/{day}"
                                    class="w-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 py-3 rounded-lg font-medium transition-colors flex items-center justify-center gap-2 group">
                                     <span>Flashcards</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 transform transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -83,7 +83,7 @@
                                         <path d="m12 5 7 7-7 7"></path>
                                     </svg>
                                 </a>
-                                <a href="/quiz/{$page.params.courseid}/{day}"
+                                <a data-sveltekit-preload-data="off" href="/quiz/{$page.params.courseid}/{day}"
                                    class="w-full bg-slate-900 hover:bg-slate-800 dark:bg-slate-100 dark:hover:bg-slate-200 text-white dark:text-slate-900 py-3 rounded-lg font-medium transition-colors flex items-center justify-center gap-2 group">
                                     <span>Quiz</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 transform transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

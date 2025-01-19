@@ -117,7 +117,7 @@
             <div class="md:col-span-2"
                  in:fly={{ y: 20, duration: 300, easing: quintOut }}>
                 <div class="bg-white dark:bg-slate-900 rounded-xl shadow-lg p-8 min-h-[400px] cursor-pointer relative overflow-hidden"
-                     on:click={flipCard}>
+                     onclick={flipCard}>
                     {#key isFlipped}
                         <div in:fly={{ x: isFlipped ? 100 : -100, duration: 300, easing: quintOut }}
                              class="h-full">
@@ -151,7 +151,7 @@
             <button
                     class="px-6 py-3 rounded-lg bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 shadow-sm hover:shadow flex items-center space-x-2"
                     disabled={currentIndex === 0}
-                    on:click={previousCard}>
+                    onclick={previousCard}>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="m15 18-6-6 6-6"/>
                 </svg>
@@ -161,7 +161,7 @@
             <button
                     class="px-6 py-3 rounded-lg bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 shadow-sm hover:shadow flex items-center space-x-2"
                     disabled={currentIndex === data.flashcards.flashcard_pairs.length - 1}
-                    on:click={nextCard}>
+                    onclick={nextCard}>
                 <span>Next</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="m9 18 6-6-6-6"/>
