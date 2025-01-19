@@ -20,7 +20,7 @@ import os
 import uuid
 import random
 from dotenv import load_dotenv
-from generation_methods.completions import Completions
+from backend.generation_methods.completions import Completions
 
 # FastAPI app initialization
 app = FastAPI()

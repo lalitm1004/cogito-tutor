@@ -1,4 +1,4 @@
-from generation_methods.utils.config import Config
+from backend.generation_methods.utils.config import Config
 
 class SystemPrompts:
 
