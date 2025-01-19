@@ -8,10 +8,12 @@ Cogito is an AI-powered tutor that generates a personalized study plan for you. 
 # Live Deployment
 A live deployment can be found at [Cogito](https://cogito-tutor.vercel.app)
 
-# Components
-1. Frontend
-2. Backend
-3. Model
+> Dark Mode
+![Landing](./assets/mewhen.png)
+
+> Light Mode
+![WhyCogito](./assets/quizzmaxxingrn.png)
+ 
 
 # Setup
 ## Backend
