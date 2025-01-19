@@ -110,6 +110,48 @@ class Courses(Base):
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
 
+class TaskManager:
+    @staticmethod
+    async def get_default_task_list(access_token: str) -> str:
+        async with httpx.AsyncClient() as client:
+            response = await client.get(
+                'https://tasks.googleapis.com/tasks/v1/users/@me/lists',
+                headers={'Authorization': f'Bearer {access_token}'}
+            )
+            if response.status_code != 200:
+                raise HTTPException(status_code=response.status_code,
+                                    detail="Failed to get task lists")
+
+            task_lists = response.json().get('items', [])
+            if not task_lists:
+                raise HTTPException(status_code=404, detail="No task list found")
+
+            return task_lists[0]['id']
+
+    @staticmethod
+    async def create_task(access_token: str, task_list_id: str, title: str, due_date: date) -> dict:
+        task_data = {
+            'title': title,
+            'due': f"{due_date}T00:00:00.000Z"
+        }
+
+        async with httpx.AsyncClient() as client:
+            response = await client.post(
+                f'https://tasks.googleapis.com/tasks/v1/lists/{task_list_id}/tasks',
+                headers={
+                    'Authorization': f'Bearer {access_token}',
+                    'Content-Type': 'application/json'
+                },
+                json=task_data
+            )
+
+            if response.status_code != 200:
+                raise HTTPException(status_code=response.status_code,
+                                    detail="Failed to create task")
+
+            return response.json()
+
+
 # Create database tables
 Base.metadata.create_all(bind=engine)
 
