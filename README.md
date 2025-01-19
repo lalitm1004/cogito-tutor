@@ -5,6 +5,9 @@ Revolutionize learning with cogito.
 
 Cogito is an AI-powered tutor that generates a personalized study plan for you. Simply give it a short prompt and generate a week long study plan tailored to your strenghts and weaknesses.
 
+# Demo
+[Video](https://drive.google.com/file/d/1TEPuSTvjK2ft4t6UVzbADbXd9PRmvF9c/view?usp=sharing)
+
 # Live Deployment
 A live deployment can be found at [Cogito](https://cogito-tutor.vercel.app)
 
@@ -14,9 +17,6 @@ A live deployment can be found at [Cogito](https://cogito-tutor.vercel.app)
 > Light Mode
 ![WhyCogito](./assets/quizzmaxxingrn.png)
  
-# Demo
-[Video](https://drive.google.com/file/d/1TEPuSTvjK2ft4t6UVzbADbXd9PRmvF9c/view?usp=sharing)
-
 # Setup
 ## Backend
    1. Populate `.env` file as shown in `.env.example`
