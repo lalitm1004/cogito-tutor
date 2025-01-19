@@ -24,11 +24,11 @@
 <div class="min-h-dvh w-full flex flex-col lg:grid lg:grid-cols-2 lg:place-items-center px-4 sm:px-8 md:px-12 lg:px-16 py-12 lg:py-0 gap-12 lg:gap-8">
     <!-- Left Column - ASCII Art -->
     <div class="w-full sm:max-w-[540px] md:max-w-[640px] lg:w-[590px] flex flex-col items-center justify-center order-2 lg:order-1">
-        <pre class="font-mono text-lg sm:text-2xl md:text-3xl lg:text-4xl text-center whitespace-pre leading-snug">
+        <pre class="tuntle font-mono text-lg sm:text-2xl md:text-3xl lg:text-4xl text-center whitespace-pre leading-snug">
 /^\
 |   |
 /\     |_|     /\
-| \___/' `\___/ |
+| \___/' '\___/ |
 \_/  \___/  \_/
 |\__/   \__/|
 |/  \___/  \|
