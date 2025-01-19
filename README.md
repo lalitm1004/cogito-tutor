@@ -1,4 +1,4 @@
-![Turtle](./assets/tuntle.svg)
+![Turtle](./assets/tuntle.png)
 
 # cogito
 Revolutionize learning with cogito.
