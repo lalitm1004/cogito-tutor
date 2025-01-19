@@ -33,3 +33,13 @@ A live deployment can be found at [Cogito](https://cogito-tutor.vercel.app)
    - [Rachit](https://github.com/rachitkumar205)
    - [Jia](https://github.com/icingtea)
    - [Lalit](https://github.com/lalitm1004)
+
+# Composition
+```
+Svelte     | 1215 lines | 44.98% | █████████████████████████████████████████████
+Python     |  885 lines | 32.77% | █████████████████████████████████
+TypeScript |  402 lines | 14.88% | ███████████████
+CSS        |  126 lines |  4.66% | █████
+JavaScript |   57 lines |  2.11% | ██
+HTML       |   16 lines |  0.59% | █
+```
