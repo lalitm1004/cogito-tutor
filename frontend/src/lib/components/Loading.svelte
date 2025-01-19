@@ -24,7 +24,7 @@
         top: 0;
         bottom: 0;
         margin: auto;
-        border: 3px dotted #FF3D00;
+        border: 3px dotted #1E844C;
         border-style: solid solid dotted;
         width: 24px;
         height: 24px;
